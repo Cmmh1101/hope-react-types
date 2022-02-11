@@ -1,11 +1,5 @@
-.btn-cta {
-  background-color: green;
-  color: blue;
-}
-
-.test-class {
-  color: blue;
-}
-a {
-  color: blue;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }

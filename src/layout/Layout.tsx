@@ -8,7 +8,7 @@ const Layout = (props: Props) => {
     <>
       <TopNavbar />
       <main>
-        <h1>Main content router</h1>
+        <h1 className="color-blue">Main content router</h1>
       </main>
     </>
   );

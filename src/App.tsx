@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import { Container, Row, Col } from "reactstrap";
+
 import Layout from "./layout/Layout";
+import "./App.css";
+import "./styles/styles.css";
 
 function App() {
   return <Layout />;
