@@ -21,7 +21,7 @@ interface Props {}
 const TopNavbar = (props: Props) => {
   return (
     <div>
-      <Navbar color="light" expand="lg" sticky="true" light>
+      <Navbar color="light" fixed="top" expand="lg" light>
         <Container className="d-flex">
           <NavbarBrand className="me-auto test-class" href="/">
             Hope For The Nations

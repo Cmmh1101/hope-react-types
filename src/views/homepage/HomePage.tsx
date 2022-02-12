@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "reactstrap";
+import BannerDivider from "../../utils/BannerDivider";
 import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 
@@ -12,6 +13,11 @@ const HomePage = (props: Props) => {
       <Container>
         <Introduction />
       </Container>
+      <BannerDivider
+        bannerText="food for the hungry kids program"
+        className="banner-divider"
+        bannerContent="banner content"
+      />
     </>
   );
 };
