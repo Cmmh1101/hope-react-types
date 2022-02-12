@@ -1,5 +1,6 @@
 import React from "react";
-import TopNavbar from "./components/Navbar";
+import HomePage from "../views/homepage/HomePage";
+import TopNavbar from "./components/TopNavbar";
 
 interface Props {}
 
@@ -8,7 +9,7 @@ const Layout = (props: Props) => {
     <>
       <TopNavbar />
       <main>
-        <h1 className="color-blue">Main content router</h1>
+        <HomePage />
       </main>
     </>
   );
