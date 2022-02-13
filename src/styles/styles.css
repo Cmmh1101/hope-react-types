@@ -16,13 +16,17 @@
   text-transform: uppercase;
   font-weight: 900;
 }
+.main-header p {
+  padding: 0 150px;
+  font-weight: 500;
+}
 
 .subtitle-deco {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: italic;
   font-size: 5rem;
-  color: rgb(58, 159, 241);
+  color: #3a9ff1;
 }
 
 .full-section {
@@ -57,7 +61,11 @@
 }
 
 .banner-content {
+  padding: 0 50px;
   z-index: 5;
+}
+.banner-content p {
+  padding: 0 100px;
 }
 
 .banner-image-container {

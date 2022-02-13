@@ -15,7 +15,7 @@ const MainHeader = ({
   subTitleDeco,
 }: Props) => {
   return (
-    <Col xs={12} className="main-header">
+    <Col xs={12} className="main-header py-5">
       <h2>{headerText}</h2>
       <span className="subtitle-deco">{subTitleDeco}</span>
       <p>{subText}</p>

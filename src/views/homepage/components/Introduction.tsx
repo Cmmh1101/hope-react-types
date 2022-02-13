@@ -7,14 +7,14 @@ interface Props {}
 const Introduction = (props: Props) => {
   return (
     <>
-      <Row className="full-section">
+      <Row className="full-section pt-5">
         <Col xs={12}>
           <MainHeader
             headerText="How is God calling you to"
-            subTitleDeco="give, love, help!"
+            subTitleDeco="help, love, give!"
           />
-          <Col xs={12} className="d-flex flex-wrap mt-5">
-            <Col xs={12} md={6} className="">
+          <Col xs={12} className="d-flex flex-wrap m-lg-5">
+            <Col xs={12} lg={6} className="d-flex justify-content-center">
               <iframe
                 width="560"
                 height="315"
@@ -25,7 +25,7 @@ const Introduction = (props: Props) => {
                 allowFullScreen
               ></iframe>
             </Col>
-            <Col xs={12} md={6} className="p-5 list-sec">
+            <Col xs={12} lg={6} className="p-5 list-sec">
               <div>
                 <h3 className="text-start">WE BELEIVE</h3>
                 <ul>
