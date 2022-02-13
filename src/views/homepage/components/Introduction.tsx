@@ -10,8 +10,8 @@ const Introduction = (props: Props) => {
       <Row className="full-section">
         <Col xs={12}>
           <MainHeader
-            headerText="How is God calling to you?"
-            className="main-header"
+            headerText="How is God calling you to"
+            subTitleDeco="give, love, help!"
           />
           <Col xs={12} className="d-flex flex-wrap mt-5">
             <Col xs={12} md={6} className="">

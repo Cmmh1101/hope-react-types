@@ -5,17 +5,24 @@ interface Props {
   className?: string;
   bannerText: string;
   bannerContent: string;
+  imgSrc: string;
+  altText: string;
 }
 
-const BannerDivider = ({ bannerText, className, bannerContent }: Props) => {
+const BannerDivider = ({
+  bannerText,
+  className,
+  bannerContent,
+  imgSrc,
+  altText,
+}: Props) => {
   return (
-    <div className={className}>
-      <MainHeader
-        headerText={bannerText}
-        className=""
-        subText={bannerContent}
-      />
-    </div>
+    <>
+      <MainHeader headerText={bannerText} subText={bannerContent} />
+      <div className="banner-image-container">
+        <img className="banner-image" src={imgSrc} alt={altText} />
+      </div>
+    </>
   );
 };
 
