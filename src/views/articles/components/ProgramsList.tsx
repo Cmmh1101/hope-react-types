@@ -1,7 +1,6 @@
 import React from "react";
 import { IArticleData } from "../../../models/IArticlesData";
 import articlesData from "../../../../articlesData";
-import articles from "../../../../articlesData";
 
 const ProgramsList = () => {
   return (
