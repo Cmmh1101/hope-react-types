@@ -1,10 +1,7 @@
-import React, { useState } from "react";
-import { IArticleData } from "../../models/IArticlesData";
-import articlesData from "../../../articlesData";
+import React from "react";
 import BannerDivider from "../../utils/BannerDivider";
 
 const ProgramsListPage = () => {
-  const [articles] = useState<IArticleData[]>();
   return (
     <div>
       <BannerDivider

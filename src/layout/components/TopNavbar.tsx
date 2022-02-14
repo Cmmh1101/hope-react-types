@@ -11,14 +11,11 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText,
   Button,
   Container,
 } from "reactstrap";
 
-interface Props {}
-
-const TopNavbar = (props: Props) => {
+const TopNavbar = () => {
   return (
     <div>
       <Navbar color="light" fixed="top" expand="lg" light>

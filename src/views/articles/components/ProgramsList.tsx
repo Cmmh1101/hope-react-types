@@ -6,9 +6,7 @@ import articles from "../../../../articlesData";
 const ProgramsList = () => {
   return (
     <div>
-      {articles.map((art) => {
-        <h1 key={art.name}>{art.title}</h1>;
-      })}
+      <h1>list</h1>
     </div>
   );
 };

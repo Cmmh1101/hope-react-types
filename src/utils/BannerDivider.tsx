@@ -11,7 +11,6 @@ interface Props {
 
 const BannerDivider = ({
   bannerText,
-  className,
   bannerContent,
   imgSrc,
   altText,

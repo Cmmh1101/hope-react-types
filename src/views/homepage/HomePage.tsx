@@ -6,10 +6,7 @@ import ProgramsList from "../articles/ProgramsListPage";
 import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 
-interface Props {}
-
-const HomePage = (props: Props) => {
-  const bannerStyles = {};
+const HomePage = () => {
   return (
     <>
       <Header />
