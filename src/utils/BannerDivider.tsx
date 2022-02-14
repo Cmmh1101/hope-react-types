@@ -4,7 +4,7 @@ import MainHeader from "./MainHeader";
 interface Props {
   className?: string;
   bannerText: string;
-  bannerContent: string;
+  bannerContent?: string;
   imgSrc: string;
   altText: string;
 }

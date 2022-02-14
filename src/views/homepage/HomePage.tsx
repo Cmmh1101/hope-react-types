@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "reactstrap";
 import BannerDivider from "../../utils/BannerDivider";
 import MainHeader from "../../utils/MainHeader";
-import ProgramsList from "../articles/ProgramsList";
+import ProgramsList from "../articles/ProgramsListPage";
 import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 
