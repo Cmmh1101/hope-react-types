@@ -1,5 +1,9 @@
 /* button cta */
 
+nav {
+  z-index: 100;
+}
+
 .btn-cta {
   background-color: green !important;
 }
