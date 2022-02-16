@@ -1,4 +1,5 @@
 import React from "react";
+import { Col, Container, Row } from "reactstrap";
 import BannerDivider from "../../utils/BannerDivider";
 import ProgramsList from "./components/ProgramsList";
 
@@ -12,8 +13,13 @@ const ProgramsListPage = () => {
           altText="team huddle"
         />
       </div>
-
-      <ProgramsList />
+      <Container>
+        <Row>
+          <Col xs={12}>
+            <ProgramsList />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };
