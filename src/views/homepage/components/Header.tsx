@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Jumbotron, UncontrolledCarousel } from "reactstrap";
+import { Container, Jumbotron } from "reactstrap";
 
 const Header = (props: any) => {
   return (

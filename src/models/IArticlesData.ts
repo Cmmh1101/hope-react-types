@@ -1,7 +1,7 @@
 import React from 'react'
 
 export interface IArticleData {
-  articles: [
+  articles: 
     {
   name: string;
   title: string;
@@ -14,7 +14,7 @@ export interface IArticleData {
   highlight?: string;
   content: string;
     }
-  ]
+  
   
 }
 

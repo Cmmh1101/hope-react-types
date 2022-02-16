@@ -1,5 +1,7 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Redirect, Route, Switch } from "react-router-dom";
+import NotFoundPage from "../views/404page";
+import ProgramPage from "../views/articles/components/ProgramPage";
 import ProgramsListPage from "../views/articles/ProgramsListPage";
 import HomePage from "../views/homepage/HomePage";
 
@@ -9,6 +11,9 @@ const AppRouter = () => {
       <Switch>
         <Route path="/" component={HomePage} exact />
         <Route path="/programs" exact component={ProgramsListPage} />
+        <Route path="/program/:name" component={ProgramPage} exact />
+        <Route component={NotFoundPage} />
+        <Redirect to="/" />
       </Switch>
     </>
   );
