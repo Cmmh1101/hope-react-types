@@ -102,4 +102,29 @@ nav {
   opacity: 0.3;
 }
 
+/* Programs List */
+
+.programs-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+/* Footer */
+
+.footer-col {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  text-align: center;
+}
+
 /* ============= RESPONSIVE STYLES ============= */
+/* TODO: */
+@media only screen and (max-width: 600px) {
+  .banner-content p {
+    padding: 0 300px;
+  }
+}

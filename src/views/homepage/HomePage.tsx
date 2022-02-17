@@ -3,6 +3,7 @@ import { Container } from "reactstrap";
 import BannerDivider from "../../utils/BannerDivider";
 import MainHeader from "../../utils/MainHeader";
 import ProgramsList from "../articles/components/ProgramsList";
+import DonateBanner from "./components/DonateBanner";
 // import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 
@@ -44,6 +45,11 @@ const HomePage = () => {
           altText="kids receiving lunch"
         />
       </div>
+      <Container>
+        <MainHeader headerText="Stories of Hope" />
+        <ProgramsList />
+      </Container>
+      <DonateBanner />
     </>
   );
 };

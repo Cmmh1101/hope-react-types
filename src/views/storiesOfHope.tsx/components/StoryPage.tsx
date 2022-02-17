@@ -3,9 +3,9 @@ import { Col, Container, Row } from "reactstrap";
 import articleData from "../../../articlesData";
 import BannerDivider from "../../../utils/BannerDivider";
 import NotFoundPage from "../../404page";
-import ProgramsList from "./ProgramsList";
+import StoriesList from "./StoriesList";
 
-const ProgramPage = ({ match }: any) => {
+const StoryPage = ({ match }: any) => {
   const name = match.params.name;
   const article = articleData.find((article) => article.name === name);
 
@@ -41,11 +41,11 @@ const ProgramPage = ({ match }: any) => {
               {article.highligh}
             </span>
           </Col>
-          <ProgramsList />
+          <StoriesList />
         </Row>
       </Container>
     </>
   );
 };
 
-export default ProgramPage;
+export default StoryPage;

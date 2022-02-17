@@ -10,7 +10,7 @@ import {
   Button,
 } from "reactstrap";
 
-const TopNavbar = (props: any) => {
+const TopNavbar = ({ props }: any) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
