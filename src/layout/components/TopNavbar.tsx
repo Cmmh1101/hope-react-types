@@ -7,7 +7,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  Button,
+  Container,
 } from "reactstrap";
 
 const TopNavbar = ({ props }: any) => {
@@ -17,39 +17,54 @@ const TopNavbar = ({ props }: any) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Hope For The Nations</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
-            <NavItem>
-              <NavLink to="/" onClick={toggle}>
-                Home
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/" onClick={toggle}>
-                Who we are
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/programs" onClick={toggle}>
-                Programs
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/" onClick={toggle}>
-                Stories of Hope
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="" onClick={toggle}>
-                Contact
-              </NavLink>
-            </NavItem>
-            <Button className="btn-cta">Donate</Button>
-          </Nav>
-        </Collapse>
+      <Navbar light expand="md">
+        <Container>
+          <NavbarBrand href="/">Hope For The Nations</NavbarBrand>
+          <NavbarToggler onClick={toggle} />
+          <Collapse isOpen={isOpen} navbar>
+            <Nav tag="ul" className="ml-auto" navbar>
+              <NavItem tag="li">
+                <NavLink to="/" onClick={toggle}>
+                  Home
+                </NavLink>
+              </NavItem>
+              <NavItem tag="li">
+                <NavLink to="/" onClick={toggle}>
+                  Who we are
+                </NavLink>
+              </NavItem>
+
+              <NavItem tag="li">
+                <NavLink to="/programs" onClick={toggle}>
+                  Programs
+                </NavLink>
+              </NavItem>
+              <NavItem tag="li">
+                <NavLink to="/" onClick={toggle}>
+                  Stories of Hope
+                </NavLink>
+              </NavItem>
+              <NavItem tag="li" className="">
+                <NavLink to="/" className="" onClick={toggle}>
+                  Contact
+                </NavLink>
+              </NavItem>
+              <NavItem tag="li">
+                <NavLink
+                  to={{
+                    pathname:
+                      "https://www.paypal.com/donate?hosted_button_id=JWBZEQHW76WC4",
+                  }}
+                  target="_blank"
+                  className="btn text-light btn-cta"
+                  onClick={toggle}
+                >
+                  Contact
+                </NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Container>
       </Navbar>
     </div>
   );

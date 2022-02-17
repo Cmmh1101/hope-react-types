@@ -1,7 +1,44 @@
 /* button cta */
+:root {
+  --transition: all 0.3s ease-in-out;
+}
 
 nav {
   z-index: 150;
+  background-color: #3a9ff1;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px 0 0;
+  text-decoration: none;
+}
+nav ul li a {
+  color: #bad3e7;
+  transition: var(--transition);
+}
+nav ul li a:hover {
+  text-decoration: none;
+}
+footer a {
+  color: #bad3e7;
+  transition: var(--transition);
+}
+footer a:hover {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #3a9ff1;
+}
+footer .rights {
+  background-color: #304b61;
+  width: 100% !important;
+  text-align: center;
+  padding: 5px 0;
+  color: #bad3e7;
 }
 
 .btn-cta {

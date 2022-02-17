@@ -4,9 +4,9 @@ import { Col, Container, Row } from "reactstrap";
 
 const Footer = () => {
   return (
-    <div>
+    <footer>
       <Container>
-        <Row className="mt-5">
+        <Row className="py-5">
           <Col md={3} className="footer-col">
             <h4>Logo</h4>
           </Col>
@@ -33,12 +33,12 @@ const Footer = () => {
               YouTube
             </Link>
           </Col>
-          <Col xs={12} className="text-center mt-3">
-            <small>COPURIGHT © 2022 HOPE FOR THE NATIONS | CREDITS</small>
-          </Col>
         </Row>
       </Container>
-    </div>
+      <section className="text-center rights">
+        <small>COPYRIGHT © 2022 HOPE FOR THE NATIONS | CREDITS</small>
+      </section>
+    </footer>
   );
 };
 
