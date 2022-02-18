@@ -22,8 +22,13 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: none;
 }
+
+/* footer */
+footer {
+  color: #d5e3ee;
+}
 footer a {
-  color: #bad3e7;
+  color: #d5e3ee;
   transition: var(--transition);
 }
 footer a:hover {
@@ -41,6 +46,13 @@ footer .rights {
   color: #bad3e7;
 }
 
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* btn call to action */
 .btn-cta {
   background-color: green !important;
 }
@@ -149,13 +161,39 @@ footer .rights {
   margin: 15px 0;
 }
 
-/* Footer */
+/* Programs and stories */
 
-.footer-col {
+.span-highlight {
+  font-size: 26px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* stories */
+
+.stories-list-img-containter {
+  padding: 0;
+}
+
+.stories-list-containter-link {
   display: flex;
-  /* justify-content: center; */
-  flex-direction: column;
-  text-align: center;
+  transition: var(--transition);
+}
+
+.stories-list-containter-link:hover {
+  text-decoration: none;
+  transform: scale(1.03);
+}
+.stories-list-img-containter img {
+  width: 100%;
+  border-left: 10px solid #3a9ff1;
+}
+
+/* .stories-list-img-containter img {
+  width: 100%;
+} */
+
+.story-images-container img {
+  width: 100%;
 }
 
 /* ============= RESPONSIVE STYLES ============= */
