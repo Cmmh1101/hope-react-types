@@ -40,7 +40,7 @@ const TopNavbar = ({ props }: any) => {
                 </NavLink>
               </NavItem>
               <NavItem tag="li">
-                <NavLink to="/" onClick={toggle}>
+                <NavLink to="/storiesOfHope" onClick={toggle}>
                   Stories of Hope
                 </NavLink>
               </NavItem>
