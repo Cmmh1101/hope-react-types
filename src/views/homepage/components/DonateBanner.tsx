@@ -4,7 +4,7 @@ import { Button, Container, Jumbotron } from "reactstrap";
 const DonateBanner = () => {
   return (
     <div>
-      <Jumbotron fluid className="">
+      <Jumbotron fluid className="mb-0">
         <Container
           fluid
           className="d-flex p-5 justify-content-center align-items-center"

@@ -17,10 +17,15 @@ const BannerDivider = ({
 }: Props) => {
   return (
     <>
-      <MainHeader headerText={bannerText} subText={bannerContent} />
+      <MainHeader
+        headerText={bannerText}
+        subText={bannerContent}
+        customClass="banner-divider-text-color"
+      />
       <div className="banner-image-container">
         <img className="banner-image" src={imgSrc} alt={altText} />
       </div>
+      <div className="banner-image-overlay" />
     </>
   );
 };

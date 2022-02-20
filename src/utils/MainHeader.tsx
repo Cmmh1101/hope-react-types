@@ -3,20 +3,20 @@ import { Col } from "reactstrap";
 
 interface Props {
   headerText: string;
-  className?: string;
+  customClass?: string;
   subText?: string;
   subTitleDeco?: string;
 }
 
 const MainHeader = ({
   headerText,
-  className,
+  customClass,
   subText,
   subTitleDeco,
 }: Props) => {
   return (
-    <Col xs={12} className="main-header py-5">
-      <h2>{headerText}</h2>
+    <Col xs={12} className={`main-header py-5 ${customClass}`}>
+      <h2 className={customClass}>{headerText}</h2>
       <span className="subtitle-deco">{subTitleDeco}</span>
       <p>{subText}</p>
     </Col>

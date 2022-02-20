@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "reactstrap";
 import BannerDivider from "../../utils/BannerDivider";
+import FacebookFeed from "../../utils/FacebookFeed";
 import MainHeader from "../../utils/MainHeader";
 import ProgramsList from "../articles/components/ProgramsList";
 import StoriesList from "../storiesOfHope.tsx/components/StoriesList";
@@ -49,6 +50,7 @@ const HomePage = () => {
       <Container>
         <MainHeader headerText="Stories of Hope" />
         <StoriesList />
+        <FacebookFeed />
       </Container>
       <DonateBanner />
     </>
