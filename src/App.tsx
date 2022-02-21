@@ -1,15 +1,18 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import "./styles/styles.css";
 import Layout from "./layout/Layout";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
     <div className="app" data-testid="app">
-      <BrowserRouter>
-        <Layout />
-      </BrowserRouter>
+      <Router>
+        <ScrollToTop>
+          <Layout />
+        </ScrollToTop>
+      </Router>
     </div>
   );
 }
