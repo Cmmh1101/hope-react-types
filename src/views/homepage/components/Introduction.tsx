@@ -7,13 +7,13 @@ interface Props {}
 const Introduction = (props: Props) => {
   return (
     <>
-      <Row className="full-section pt-5">
-        <Col xs={12}>
+      <Row className="intro-section my-5">
+        <Col xs={12} className="">
           <MainHeader
             headerText="How is God calling you to"
             subTitleDeco="help, love, give!"
           />
-          <Col xs={12} className="d-flex flex-wrap m-lg-5">
+          <Col xs={12} className="d-flex flex-wrap my-5">
             <Col xs={12} lg={6} className="d-flex justify-content-center">
               <iframe
                 width="560"

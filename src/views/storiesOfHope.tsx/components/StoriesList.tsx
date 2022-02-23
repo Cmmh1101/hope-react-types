@@ -2,23 +2,28 @@ import React from "react";
 import storiesData from "../../../storiesData";
 import { Col, Row } from "reactstrap";
 import { Link } from "react-router-dom";
+import FacebookFeed from "../../../utils/FacebookFeed";
 
-const StoriesList = () => {
+// interface Props {
+//   articles?: any
+// }
+
+const ProgramsList = () => {
   return (
     <Row className="mb-5">
       <Col
-        xs={12}
-        className="d-flex flex-wrap justify-content-center align-items-center my-5"
+        xs={8}
+        className="d-flex flex-wrap justify-content-center align-items-center"
       >
-        {storiesData.map((article, key) => {
+        {storiesData.map((article: any, key: any) => {
           return (
-            <Col xs={12} md={6} key={key} className="stories-list-containter">
+            <Col xs={12} key={key} className="stories-list-containter">
               <Link
                 to={`/storyOfHope/${article.name}`}
                 color="primary"
-                className="my-3 mb-5 stories-list-containter-link"
+                className="my-3 mb-5 flex-wrap stories-list-containter-link"
               >
-                <Col md={6} className="p-0 stories-list-img-containter">
+                <Col xs={12} md={6} className="p-0 stories-list-img-containter">
                   <img
                     src={article.image}
                     alt={article.title}
@@ -26,6 +31,7 @@ const StoriesList = () => {
                   />
                 </Col>
                 <Col
+                  xs={12}
                   md={6}
                   className="pr-0 pl-4 stories-list-content-container"
                 >
@@ -40,8 +46,15 @@ const StoriesList = () => {
           );
         })}
       </Col>
+      <Col
+        xs={12}
+        md={4}
+        className="d-flex justify-content-center align-items-center"
+      >
+        <FacebookFeed />
+      </Col>
     </Row>
   );
 };
 
-export default StoriesList;
+export default ProgramsList;

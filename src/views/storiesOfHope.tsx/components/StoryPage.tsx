@@ -11,9 +11,7 @@ const StoryPage = ({ match }: any) => {
 
   if (!article) return <NotFoundPage />;
 
-  //   const relatedArticles = articleData.filter(
-  //     (article) => article.name !== name
-  //   );
+  // const relatedStories = storiesData.filter((art) => art.name !== name);
 
   return (
     <>
@@ -28,7 +26,7 @@ const StoryPage = ({ match }: any) => {
 
       <Container>
         <Row className="">
-          <Col md={10} className="mx-auto">
+          <Col md={10} className="mx-auto p-0">
             <Col xs={12} className="my-5 mx-auto">
               <h3>{article.description} short description</h3>
             </Col>
@@ -56,7 +54,7 @@ const StoryPage = ({ match }: any) => {
       <section className="bg-info my-5 py-5">
         <Container>
           <Row>
-            <Col md={10} className="mx-auto px-5">
+            <Col md={10} className="mx-auto px-3">
               <span className="span-highlight">{article.highligh}</span>
             </Col>
           </Row>

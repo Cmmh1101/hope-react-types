@@ -1,18 +1,15 @@
 import React from "react";
 import { Container } from "reactstrap";
 import BannerDivider from "../../utils/BannerDivider";
-import FacebookFeed from "../../utils/FacebookFeed";
 import MainHeader from "../../utils/MainHeader";
 import ProgramsList from "../articles/components/ProgramsList";
 import StoriesList from "../storiesOfHope.tsx/components/StoriesList";
 import DonateBanner from "./components/DonateBanner";
-// import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 
 const HomePage = () => {
   return (
     <>
-      {/* <Header /> */}
       <div className="main-banner">
         <BannerDivider
           className="banner-content"
@@ -34,7 +31,7 @@ const HomePage = () => {
           altText="kids receiving lunch"
         />
       </div>
-      <Container>
+      <Container className="pt-5">
         <MainHeader headerText="Our programs" />
         <ProgramsList />
       </Container>
@@ -47,10 +44,9 @@ const HomePage = () => {
           altText="kids receiving lunch"
         />
       </div>
-      <Container>
+      <Container className="pt-5">
         <MainHeader headerText="Stories of Hope" />
         <StoriesList />
-        <FacebookFeed />
       </Container>
       <DonateBanner />
     </>

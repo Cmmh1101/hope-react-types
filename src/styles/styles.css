@@ -82,10 +82,8 @@ footer .rights {
   color: #3a9ff1;
 }
 
-.full-section {
+.intro-section {
   height: auto;
-  min-height: 80vh;
-  max-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -214,6 +212,10 @@ footer .rights {
 
 .story-images-container img {
   width: 100%;
+}
+
+.facebook-feed {
+  height: 100%;
 }
 
 /* ============= RESPONSIVE STYLES ============= */

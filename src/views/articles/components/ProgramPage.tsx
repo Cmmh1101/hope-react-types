@@ -11,9 +11,7 @@ const ProgramPage = ({ match }: any) => {
 
   if (!article) return <NotFoundPage />;
 
-  //   const relatedArticles = articleData.filter(
-  //     (article) => article.name !== name
-  //   );
+  // const relatedPrograms = articleData.filter((art) => art.name !== name);
 
   return (
     <>
@@ -28,20 +26,46 @@ const ProgramPage = ({ match }: any) => {
 
       <Container>
         <Row>
-          <Col xs={12} className="my-3 mx-auto">
-            <h3>{article.description} short description</h3>
+          <Col
+            xs={12}
+            md={10}
+            className="mx-auto d-flex justify-contente-center align-items-center"
+          >
+            <Col xs={12} md={6} className="my-3 mx-auto">
+              <h3 className="my-5">{article.description} short description</h3>
+              {article.content.map((paragraph, key) => (
+                <p key={key}>{paragraph}</p>
+              ))}
+            </Col>
+            <Col xs={12} md={6}>
+              <iframe
+                width="400"
+                height="315"
+                src="https://www.youtube.com/embed/E1xkXZs0cAQ"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </Col>
           </Col>
-          <Col xs={12} className="my-3 mx-auto">
-            {article.content.map((paragraph, key) => (
-              <p key={key}>{paragraph}</p>
-            ))}
+        </Row>
+      </Container>
+      <section className="bg-info my-5 py-5">
+        <Container>
+          <Row>
+            <Col md={10} className="mx-auto px-3">
+              <span className="span-highlight">{article.highligh}</span>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      <Container>
+        <Row>
+          <Col xs={12} md={10} className="mx-auto px-4">
+            <h4 className="mt-5 mb-0">Our Programs</h4>
+            <ProgramsList />
           </Col>
-          <Col xs={12}>
-            <span className="span-highlight text-primary">
-              {article.highligh}
-            </span>
-          </Col>
-          <ProgramsList />
         </Row>
       </Container>
     </>

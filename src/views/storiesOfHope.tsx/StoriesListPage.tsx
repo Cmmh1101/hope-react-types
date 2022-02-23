@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import BannerDivider from "../../utils/BannerDivider";
+import DonateBanner from "../homepage/components/DonateBanner";
 import StoriesList from "./components/StoriesList";
 
 const StoriesListPage = () => {
@@ -14,12 +15,13 @@ const StoriesListPage = () => {
         />
       </div>
       <Container>
-        <Row>
-          <Col xs={12}>
+        <Row className="mt-5">
+          <Col xs={12} md={10} className="mt-5 mx-auto">
             <StoriesList />
           </Col>
         </Row>
       </Container>
+      <DonateBanner />
     </div>
   );
 };
