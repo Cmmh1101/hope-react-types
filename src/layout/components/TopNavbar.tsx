@@ -23,29 +23,29 @@ const TopNavbar = ({ props }: any) => {
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav tag="ul" className="ml-auto" navbar>
-              <NavItem tag="li">
+              <NavItem tag="li" className="mx-2">
                 <NavLink to="/" onClick={toggle}>
                   Home
                 </NavLink>
               </NavItem>
-              <NavItem tag="li">
+              <NavItem tag="li" className="mx-2">
                 <NavLink to="/" onClick={toggle}>
                   Who we are
                 </NavLink>
               </NavItem>
 
-              <NavItem tag="li">
+              <NavItem tag="li" className="mx-2">
                 <NavLink to="/programs" onClick={toggle}>
                   Programs
                 </NavLink>
               </NavItem>
-              <NavItem tag="li">
+              <NavItem tag="li" className="mx-2">
                 <NavLink to="/storiesOfHope" onClick={toggle}>
                   Stories of Hope
                 </NavLink>
               </NavItem>
-              <NavItem tag="li" className="">
-                <NavLink to="/" className="" onClick={toggle}>
+              <NavItem tag="li" className="mx-2">
+                <NavLink to="/" onClick={toggle}>
                   Contact
                 </NavLink>
               </NavItem>
