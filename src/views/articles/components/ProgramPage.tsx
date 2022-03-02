@@ -26,21 +26,17 @@ const ProgramPage = ({ match }: any) => {
 
       <Container>
         <Row>
-          <Col
-            xs={12}
-            md={10}
-            className="mx-auto d-flex justify-contente-center align-items-center"
-          >
-            <Col xs={12} md={6} className="my-3 mx-auto">
+          <Col xs={12} className="mx-auto">
+            <Col xs={12} className="my-5 mx-auto">
               <h3 className="my-5">{article.description} short description</h3>
               {article.content.map((paragraph, key) => (
                 <p key={key}>{paragraph}</p>
               ))}
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} className="mt-5">
               <iframe
-                width="400"
-                height="315"
+                width="100%"
+                height="400"
                 src="https://www.youtube.com/embed/E1xkXZs0cAQ"
                 title="YouTube video player"
                 frameBorder="0"
@@ -54,7 +50,7 @@ const ProgramPage = ({ match }: any) => {
       <section className="bg-info my-5 py-5">
         <Container>
           <Row>
-            <Col md={10} className="mx-auto px-3">
+            <Col xs={12} className="mx-auto px-3">
               <span className="span-highlight">{article.highligh}</span>
             </Col>
           </Row>
@@ -62,7 +58,7 @@ const ProgramPage = ({ match }: any) => {
       </section>
       <Container>
         <Row>
-          <Col xs={12} md={10} className="mx-auto px-4">
+          <Col xs={12} className="mx-auto px-4">
             <h4 className="mt-5 mb-0">Our Programs</h4>
             <ProgramsList />
           </Col>

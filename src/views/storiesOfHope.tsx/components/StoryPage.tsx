@@ -26,7 +26,7 @@ const StoryPage = ({ match }: any) => {
 
       <Container>
         <Row className="">
-          <Col md={10} className="mx-auto p-0">
+          <Col xs={12} className="mx-auto p-0">
             <Col xs={12} className="my-5 mx-auto">
               <h3>{article.description} short description</h3>
             </Col>
@@ -54,7 +54,7 @@ const StoryPage = ({ match }: any) => {
       <section className="bg-info my-5 py-5">
         <Container>
           <Row>
-            <Col md={10} className="mx-auto px-3">
+            <Col xs={12} className="mx-auto px-3">
               <span className="span-highlight">{article.highligh}</span>
             </Col>
           </Row>
@@ -62,7 +62,7 @@ const StoryPage = ({ match }: any) => {
       </section>
       <Container>
         <Row>
-          <Col md={10} className="mx-auto px-4">
+          <Col xs={12} className="mx-auto px-4">
             <h4 className="mt-5 mb-0">More stories of Hope</h4>
             <StoriesList />
           </Col>

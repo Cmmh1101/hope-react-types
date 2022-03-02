@@ -59,7 +59,7 @@ const TopNavbar = ({ props }: any) => {
                   className="btn text-light btn-cta"
                   onClick={toggle}
                 >
-                  Contact
+                  Donate
                 </NavLink>
               </NavItem>
             </Nav>

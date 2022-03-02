@@ -16,7 +16,7 @@ const StoriesListPage = () => {
       </div>
       <Container>
         <Row className="mt-5">
-          <Col xs={12} md={10} className="mt-5 mx-auto">
+          <Col xs={12} className="mt-5 mx-auto">
             <StoriesList />
           </Col>
         </Row>
