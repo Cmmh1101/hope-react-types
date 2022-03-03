@@ -13,7 +13,7 @@ const ProgramsList = () => {
     <Row className="mb-5">
       <Col
         xs={8}
-        className="d-flex flex-wrap justify-content-center align-items-center"
+        className="d-flex flex-wrap mx-auto justify-content-center align-items-center"
       >
         {storiesData.map((article: any, key: any) => {
           return (
