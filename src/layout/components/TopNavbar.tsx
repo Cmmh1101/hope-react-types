@@ -21,7 +21,7 @@ const TopNavbar = ({ props }: any) => {
 
   return (
     <div>
-      <Navbar light expand="md">
+      <Navbar fixed="top" className="shadow" light expand="md">
         <Container>
           <NavbarBrand href="/" className="logo-brand">
             <img

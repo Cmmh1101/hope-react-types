@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { Col, Container, Row } from "reactstrap";
 
 const Footer = () => {
@@ -8,13 +8,13 @@ const Footer = () => {
       <Container>
         <Row className="py-5">
           <Col sm={6} md={3} className="footer-col">
-            <div className="footer-img-container">
+            <NavLink to="/" className="footer-img-container">
               <img
                 className="logo-img mt-0"
                 src="../../../images/logo.png"
                 alt="logo brand"
               />
-            </div>
+            </NavLink>
           </Col>
           <Col sm={6} md={3} className="footer-col">
             <h4>MENU</h4>
