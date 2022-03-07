@@ -8,6 +8,10 @@ import {
   Nav,
   NavItem,
   Container,
+  DropdownItem,
+  DropdownMenu,
+  DropdownToggle,
+  UncontrolledDropdown,
 } from "reactstrap";
 
 const TopNavbar = ({ props }: any) => {
@@ -28,6 +32,24 @@ const TopNavbar = ({ props }: any) => {
                   Home
                 </NavLink>
               </NavItem>
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  Who We Are
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                    <NavLink to="/purpose" onClick={toggle}>
+                      Our Purpose
+                    </NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink to="/leadership" onClick={toggle}>
+                      Leadership
+                    </NavLink>
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+
               <NavItem tag="li" className="mx-2">
                 <NavLink to="/" onClick={toggle}>
                   Who we are
@@ -45,7 +67,7 @@ const TopNavbar = ({ props }: any) => {
                 </NavLink>
               </NavItem>
               <NavItem tag="li" className="mx-2">
-                <NavLink to="/" onClick={toggle}>
+                <NavLink to="/contactUs" onClick={toggle}>
                   Contact
                 </NavLink>
               </NavItem>

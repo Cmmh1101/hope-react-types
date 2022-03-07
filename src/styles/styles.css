@@ -1,7 +1,4 @@
 /* button cta */
-:root {
-  --transition: all 0.3s ease-in-out;
-}
 
 nav {
   z-index: 150;
@@ -54,7 +51,7 @@ footer .rights {
 
 /* btn call to action */
 .btn-cta {
-  background-color: green !important;
+  background-color: var(--blue) !important;
 }
 
 .color-blue {
