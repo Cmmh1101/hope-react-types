@@ -7,22 +7,28 @@ const Footer = () => {
     <footer>
       <Container>
         <Row className="py-5">
-          <Col md={3} className="footer-col">
-            <h4>Logo</h4>
+          <Col sm={6} md={3} className="footer-col">
+            <div className="footer-img-container">
+              <img
+                className="logo-img mt-0"
+                src="../../../images/logo.png"
+                alt="logo brand"
+              />
+            </div>
           </Col>
-          <Col md={3} className="footer-col">
+          <Col sm={6} md={3} className="footer-col">
             <h4>MENU</h4>
             <Link to="/">Home</Link>
             <Link to="/programs">Programs</Link>
             <Link to="/">About Us</Link>
             <Link to="/">Contact Us</Link>
           </Col>
-          <Col md={3} className="footer-col">
+          <Col sm={6} md={3} className="footer-col">
             <h4>CONTACT US</h4>
             <p>Tlf: +123456789</p>
             <p>Email</p>
           </Col>
-          <Col md={3} className="footer-col">
+          <Col sm={6} md={3} className="footer-col">
             <h4>FOLLOW US</h4>
             <Link to="/">
               <i className="fa fa-facebook" aria-hidden="true" />

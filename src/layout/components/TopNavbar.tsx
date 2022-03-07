@@ -23,17 +23,24 @@ const TopNavbar = ({ props }: any) => {
     <div>
       <Navbar light expand="md">
         <Container>
-          <NavbarBrand href="/">Hope For The Nations</NavbarBrand>
+          <NavbarBrand href="/" className="logo-brand">
+            <img
+              className="logo-img"
+              src="../../../images/logo.png"
+              alt="logo brand"
+            />{" "}
+            Hope For The Nations
+          </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav tag="ul" className="ml-auto" navbar>
-              <NavItem tag="li" className="mx-2">
+              <NavItem tag="li" className="navigation-link">
                 <NavLink to="/" onClick={toggle}>
                   Home
                 </NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
+                <DropdownToggle className="drop-item px-0" nav caret>
                   Who We Are
                 </DropdownToggle>
                 <DropdownMenu right>
@@ -49,24 +56,17 @@ const TopNavbar = ({ props }: any) => {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
-
-              <NavItem tag="li" className="mx-2">
-                <NavLink to="/" onClick={toggle}>
-                  Who we are
-                </NavLink>
-              </NavItem>
-
-              <NavItem tag="li" className="mx-2">
+              <NavItem tag="li" className="navigation-link">
                 <NavLink to="/programs" onClick={toggle}>
                   Programs
                 </NavLink>
               </NavItem>
-              <NavItem tag="li" className="mx-2">
+              <NavItem tag="li" className="navigation-link">
                 <NavLink to="/storiesOfHope" onClick={toggle}>
                   Stories of Hope
                 </NavLink>
               </NavItem>
-              <NavItem tag="li" className="mx-2">
+              <NavItem tag="li" className="navigation-link">
                 <NavLink to="/contactUs" onClick={toggle}>
                   Contact
                 </NavLink>
