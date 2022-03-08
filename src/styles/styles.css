@@ -40,6 +40,17 @@ a.drop-item:hover {
   color: var(--dark-blue) !important;
 }
 
+.menu-btn-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.menu-btn {
+  justify-content: end !important;
+  margin-right: -60%;
+}
+
 /* footer */
 footer {
   color: #d5e3ee;

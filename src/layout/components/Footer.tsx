@@ -5,7 +5,7 @@ import { Col, Container, Row } from "reactstrap";
 const Footer = () => {
   return (
     <footer>
-      <Container>
+      <Container fluid>
         <Row className="py-5">
           <Col sm={6} md={3} className="footer-col">
             <NavLink to="/" className="footer-img-container">
