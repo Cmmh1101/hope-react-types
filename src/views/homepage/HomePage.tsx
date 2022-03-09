@@ -6,6 +6,9 @@ import ProgramsList from "../articles/components/ProgramsList";
 import StoriesList from "../storiesOfHope.tsx/components/StoriesList";
 import DonateBanner from "./components/DonateBanner";
 import Introduction from "./components/Introduction";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { faSave } from "@fortawesome/free-regular-svg-icons";
 
 const HomePage = () => {
   return (
@@ -20,6 +23,8 @@ const HomePage = () => {
         />
       </div>
       <Container>
+        <FontAwesomeIcon icon={faCoffee} />
+        <FontAwesomeIcon icon={faSave} />
         <Introduction />
       </Container>
       <div className="banner-divider">
