@@ -1,26 +1,33 @@
 import React from "react";
-import { Button, Container, Jumbotron } from "reactstrap";
+import { Button, Col, Container, Row } from "reactstrap";
 
 const DonateBanner = () => {
   return (
-    <div>
-      <Jumbotron fluid className="mb-0">
-        <Container
-          fluid
-          className="d-flex p-5 justify-content-center align-items-center"
-        >
-          <div className="">
-            {/* <h4 className="display-3">Fluid jumbotron</h4> */}
-            <p className="text-end pl-5">
-              We would love for you to consider and pray about partnering with
-              us to reach and empower the people in Venezuela
+    <Container fluid className="p-5 donate-section">
+      <Row>
+        <Col xs={12} className="d-flex justify-content-center flex-wrap">
+          <Col
+            xs={12}
+            md={8}
+            xl={4}
+            className="d-flex justify-content-center align-items-center"
+          >
+            <p className="text-center text-md-end text-right mb-xs-4 mb-md-0">
+              We would love for you to consider partnering with us to reach and
+              empower the people in Venezuela
             </p>
-          </div>
-
-          <Button className="btn-cta ml-5">DONATE</Button>
-        </Container>
-      </Jumbotron>
-    </div>
+          </Col>
+          <Col
+            xs={12}
+            md={4}
+            xl={4}
+            className="d-flex justify-content-center align-items-center"
+          >
+            <Button className="btn-cta">DONATE</Button>
+          </Col>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

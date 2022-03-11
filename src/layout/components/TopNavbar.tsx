@@ -94,7 +94,7 @@ const TopNavbar = ({ props }: any) => {
                     "https://www.paypal.com/donate?hosted_button_id=JWBZEQHW76WC4",
                 }}
                 target="_blank"
-                className="btn text-light btn-cta d-none d-md-flex"
+                className="btn btn-cta d-none d-md-flex"
                 onClick={toggle}
               >
                 Donate

@@ -24,7 +24,7 @@ const BannerDivider = ({
             <MainHeader
               headerText={bannerText}
               subText={bannerContent}
-              customClass="banner-divider-text-color"
+              customClass="banner-divider-principal-text"
             />
           </Col>
         </Row>

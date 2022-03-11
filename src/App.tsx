@@ -4,6 +4,8 @@ import "./App.css";
 import "./styles/styles.css";
 import Layout from "./layout/Layout";
 import ScrollToTop from "./ScrollToTop";
+import "@fontsource/crafty-girls";
+import "@fontsource/poppins";
 
 function App() {
   return (
