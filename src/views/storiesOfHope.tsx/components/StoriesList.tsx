@@ -3,6 +3,7 @@ import storiesData from "../../../storiesData";
 import { Col, Row } from "reactstrap";
 import { Link } from "react-router-dom";
 import FacebookFeed from "../../../utils/FacebookFeed";
+import src from "*.avif";
 
 // interface Props {
 //   articles?: any
@@ -12,7 +13,8 @@ const ProgramsList = () => {
   return (
     <Row className="mb-5">
       <Col
-        xs={8}
+        xs={12}
+        lg={8}
         className="d-flex flex-wrap mx-auto justify-content-center align-items-center"
       >
         {storiesData.map((article: any, key: any) => {
@@ -24,10 +26,15 @@ const ProgramsList = () => {
                 className="my-3 mb-5 flex-wrap stories-list-containter-link"
               >
                 <Col xs={12} md={6} className="p-0 stories-list-img-containter">
-                  <img
-                    src={article.image}
-                    alt={article.title}
-                    className="my-3"
+                  <div
+                    className="w-100"
+                    style={{
+                      backgroundImage: `url(${article.image})`,
+                      backgroundPosition: "center",
+                      backgroundSize: "cover",
+                      height: "200px",
+                      width: "100%",
+                    }}
                   />
                 </Col>
                 <Col
@@ -36,9 +43,9 @@ const ProgramsList = () => {
                   className="pr-0 pl-4 stories-list-content-container"
                 >
                   <h4 className="my-3">{article.title}</h4>
+                  <span>{article.date}</span>
                   <p className="">
-                    {article.date}
-                    {/* {article.content.toString().substring(0, 60)}... */}
+                    {article.content.toString().substring(0, 60)}...
                   </p>
                 </Col>
               </Link>
@@ -48,7 +55,7 @@ const ProgramsList = () => {
       </Col>
       <Col
         xs={12}
-        md={4}
+        lg={4}
         className="d-flex justify-content-center align-items-center"
       >
         <FacebookFeed />
