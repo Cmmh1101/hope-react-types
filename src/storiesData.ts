@@ -6,32 +6,20 @@ const articles = [
     image: "../../../images/dylanStory/Dylan-Baseball.png",
     icon: "../../../images/bread.png",
     description: "Hunger Relief",
-    images: {
-      storyImage: [
-        {
-          image: ["../../../images/dylanStory/Dylan-escuela.jpeg"]
-        },
-        {
-          alt: "Familia Perez recibiendo herramientas de trabajo para su reposteria en el hogar"
-        }
-      ],
-      storyImage2: [
-        {
-          image: ["../../../images/dylanStory/Dylan-escuela.jpeg"]
-        },
-        {
-          alt: "Familia Perez recibiendo herramientas de trabajo para su reposteria en el hogar"
-        }
-      ],
-      storyImage3: [
-        {
-          image: ["../../../images/dylanStory/Dylan-escuela.jpeg"]
-        },
-        {
-          alt: "Familia Perez recibiendo herramientas de trabajo para su reposteria en el hogar"
-        }
-      ],
-    },
+    
+      storyImage: {
+        image1: "../../../images/dylanStory/Dylan-casa-esperanza.jpeg",
+        alt: "Familia Perez recibiendo herramientas de trabajo para su reposteria en el hogar"
+      },
+      storyImage2: {
+        image: "../../../images/dylanStory/Dylan-escuela.jpeg",
+        alt: "Dylan at School"
+      },
+      storyImage3: {
+        image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+        alt: "Dylan"
+      },
+    
     alt: "",
     
     featured: "true",
@@ -87,6 +75,7 @@ const articles = [
       `Your gift will help us to continue providing basics needs like water, nutritious food, and shelter. Esperanza para las Naciones  ensures that children get their necessities, access to education, books, shoes, and clothing. Please help us continue providing for children like Dylan, giving them hope for a better future, giving them the tools to succeed in life.`,
     ],
   },
+
 ];
 
 export default articles;

@@ -255,9 +255,22 @@ footer .rights {
   box-shadow: 0px 0px 28px -1px rgba(0, 0, 0, 0.33);
 }
 
-.story-images-container img {
-  width: 100%;
+/* story page */
+
+.story-banner-image {
+  -webkit-box-shadow: 0px 0px 28px -1px rgba(0, 0, 0, 0.33);
+  box-shadow: 0px 0px 28px -1px rgba(0, 0, 0, 0.33);
 }
+
+.story-side-image {
+  width: 350px;
+  /* height: 300px; */
+  float: right;
+  margin: 0 0 20px 20px;
+}
+/* .story-images-container img {
+  width: 100%;
+} */
 
 .facebook-feed {
   height: 100%;
@@ -267,6 +280,7 @@ footer .rights {
 .donate-section {
   background-color: var(--dark-blue);
   color: var(--white);
+  margin-top: 6rem;
 }
 
 /* btn call to action */
