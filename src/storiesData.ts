@@ -6,19 +6,22 @@ const articles = [
     image: "../../../images/dylanStory/Dylan-Baseball.png",
     icon: "../../../images/bread.png",
     description: "Dylans's Story",
-    
-      storyImage: {
+    storyImage: {
         image1: "../../../images/dylanStory/Dylan-casa-esperanza.jpeg",
         alt: "Familia Perez recibiendo herramientas de trabajo para su reposteria en el hogar"
-      },
-      storyImage2: {
+    },
+    storyImage2: {
         image: "../../../images/dylanStory/Dylan-escuela.jpeg",
         alt: "Dylan at School"
-      },
-      storyImage3: {
+    },
+    storyImage3: {
         image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
         alt: "Dylan"
-      },
+    },
+    storyImage4: {
+        image: "../../../images/dylanStory/Dylan-Baseball.png",
+        alt: "Dylan with a baseball trophy"
+    },
     
     alt: "",
     

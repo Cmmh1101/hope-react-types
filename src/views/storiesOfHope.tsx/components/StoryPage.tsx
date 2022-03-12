@@ -3,6 +3,7 @@ import { Col, Container, Row } from "reactstrap";
 import storiesData from "../../../storiesData";
 import BannerDivider from "../../../utils/BannerDivider";
 import FollowUs from "../../../utils/FollowUs";
+import StoryBannerImageSmall from "../../../utils/StoryBannerImageSmall";
 import NotFoundPage from "../../404page";
 import StoriesList from "./StoriesList";
 
@@ -32,9 +33,9 @@ const StoryPage = ({ match }: any) => {
               <h3>{article.description} short description</h3>
             </Col>
             <Col xs={12} className="d-flex">
-              <article className="mx-auto pl-0 pr-4">
+              <article className="mx-auto px-0">
                 <img
-                  className="story-side-image"
+                  className="story-side-image ml-5"
                   src={article.storyImage?.image1}
                   alt={article.storyImage?.alt}
                 />
@@ -44,46 +45,20 @@ const StoryPage = ({ match }: any) => {
                   </p>
                 ))}
               </article>
-              {/* <img
-                className="story-side-image"
-                src={article.storyImage?.image1}
-                alt={article.storyImage?.alt}
-              /> */}
-              {/* <Col md={5} className="d-flex flex-wrap px-0">
-                <div className="col-md-12 story-images-container">
-                  <img
-                    src={article.storyImage?.image1}
-                    alt={article.storyImage?.alt}
-                  />
-                </div>
-              </Col> */}
             </Col>
-            <Col xs={12} className="d-flex">
-              <div
-                className="col-md-6 px-0 story-banner-image"
-                style={{ height: "300px" }}
-              >
-                <img
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectPosition: "center bottom",
-                  }}
-                  src={article.storyImage2?.image}
-                  alt={article.storyImage2?.alt}
-                />
-              </div>
-              <div className="col-md-6 px-0" style={{ height: "300px" }}>
-                <img
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectPosition: "center bottom",
-                  }}
-                  src={article.storyImage3?.image}
-                  alt={article.storyImage3?.alt}
-                />
-              </div>
+            <Col xs={12} className="d-flex my-5">
+              <StoryBannerImageSmall
+                image={article.storyImage2?.image}
+                altText={article.storyImage2?.alt}
+              />
+              <StoryBannerImageSmall
+                image={article.storyImage4?.image}
+                altText={article.storyImage4?.alt}
+              />
+              <StoryBannerImageSmall
+                image={article.storyImage3?.image}
+                altText={article.storyImage3?.alt}
+              />
             </Col>
           </Col>
         </Row>
