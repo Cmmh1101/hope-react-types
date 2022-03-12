@@ -7,12 +7,13 @@ import {
   faYoutube,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 interface Props {}
 
 const FollowUs = (props: Props) => {
   return (
-    <Container fluid className="p-5 donate-section">
+    <Container fluid className="p-5 follow-section">
       <Row>
         <Col xs={12} className="d-flex justify-content-center flex-wrap">
           <Col
@@ -21,15 +22,13 @@ const FollowUs = (props: Props) => {
           >
             <MainHeader headerText="Follow Us" customClass="follow-header" />
           </Col>
-          <Col
-            xs={12}
-            md={4}
-            xl={4}
-            className="d-flex justify-content-between align-items-center follow-icons mb-5"
-          >
-            <FontAwesomeIcon icon={faLinkedin} />
-            <FontAwesomeIcon icon={faFacebook} />
-            <FontAwesomeIcon icon={faYoutube} />
+          <Col xs={12} md={4} xl={4} className="follow-links mb-5">
+            <Link to="/" className="mx-5">
+              <FontAwesomeIcon icon={faFacebook} className="follow-icons" />
+            </Link>
+            <Link to="/" className="mx-5 follow-icons">
+              <FontAwesomeIcon icon={faYoutube} />
+            </Link>
           </Col>
         </Col>
       </Row>

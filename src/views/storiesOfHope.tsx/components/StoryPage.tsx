@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import storiesData from "../../../storiesData";
 import BannerDivider from "../../../utils/BannerDivider";
+import DonateInterPages from "../../../utils/DonateInterPages";
 import FollowUs from "../../../utils/FollowUs";
 import StoryBannerImageSmall from "../../../utils/StoryBannerImageSmall";
 import NotFoundPage from "../../404page";
@@ -63,7 +64,7 @@ const StoryPage = ({ match }: any) => {
           </Col>
         </Row>
       </Container>
-      <section className="bg-info my-5 py-5">
+      <section className="highlight-section my-5 py-5">
         <Container>
           <Row>
             <Col xs={12} className="mx-auto px-3">
@@ -80,6 +81,7 @@ const StoryPage = ({ match }: any) => {
           </Col>
         </Row>
       </Container>
+      <DonateInterPages />
       <FollowUs />
     </>
   );

@@ -282,6 +282,12 @@ footer .rights {
   color: var(--white);
   margin-top: 6rem;
 }
+.donate-internal-sec {
+  background-color: #cceaf7;
+  color: var(--dark-blue);
+  margin: 6rem 0 0;
+  padding: 6rem 0;
+}
 
 /* btn call to action */
 
@@ -298,9 +304,33 @@ footer .rights {
 
 /* Follow us */
 
+.follow-section {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
 .follow-header {
   color: var(--white);
 }
+
+.follow-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.follow-icons {
+  font-size: 3rem;
+  color: #00b7ff;
+  transition: var(--transition);
+}
+.follow-icons:hover {
+  font-size: 3rem;
+  color: var(--white);
+  transform: scale(1.2);
+}
+
+/* d-flex justify-content-center align-items-center follow-links */
 
 .follow-icons i {
   font-size: 3rem;
