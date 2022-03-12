@@ -2,6 +2,9 @@ import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import articleData from "../../../articlesData";
 import BannerDivider from "../../../utils/BannerDivider";
+import DonateInterPages from "../../../utils/DonateInterPages";
+import FollowUs from "../../../utils/FollowUs";
+import HighlightMessage from "../../../utils/HighlightMessage";
 import NotFoundPage from "../../404page";
 import ProgramsList from "./ProgramsList";
 
@@ -15,15 +18,14 @@ const ProgramPage = ({ match }: any) => {
 
   return (
     <>
-      <div className="banner-divider">
+      <header className="banner-divider">
         <BannerDivider
           className="banner-content"
           bannerText={article.title}
           imgSrc={article.image}
           altText={article.alt}
         />
-      </div>
-
+      </header>
       <Container>
         <Row>
           <Col xs={12} className="mx-auto">
@@ -44,26 +46,16 @@ const ProgramPage = ({ match }: any) => {
                 allowFullScreen
               ></iframe>
             </Col>
-          </Col>
-        </Row>
-      </Container>
-      <section className="bg-info my-5 py-5">
-        <Container>
-          <Row>
-            <Col xs={12} className="mx-auto px-3">
-              <span className="span-highlight">{article.highligh}</span>
+            <HighlightMessage text={article.highligh} customClass="my-5" />
+            <Col xs={12} className="mx-auto px-4">
+              <h4 className="my-5 mb-0">Our Programs</h4>
+              <ProgramsList />
             </Col>
-          </Row>
-        </Container>
-      </section>
-      <Container>
-        <Row>
-          <Col xs={12} className="mx-auto px-4">
-            <h4 className="mt-5 mb-0">Our Programs</h4>
-            <ProgramsList />
           </Col>
         </Row>
       </Container>
+      <DonateInterPages />
+      <FollowUs />
     </>
   );
 };

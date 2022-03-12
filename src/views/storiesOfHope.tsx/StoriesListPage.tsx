@@ -1,7 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import BannerDivider from "../../utils/BannerDivider";
-import DonateBanner from "../homepage/components/DonateBanner";
+import DonateInterPages from "../../utils/DonateInterPages";
+import FollowUs from "../../utils/FollowUs";
 import StoriesList from "./components/StoriesList";
 
 const StoriesListPage = () => {
@@ -9,7 +10,7 @@ const StoriesListPage = () => {
     <div>
       <div className="banner-divider">
         <BannerDivider
-          bannerText="Stories list page"
+          bannerText="Stories Of Hope"
           imgSrc="https://media.istockphoto.com/photos/team-teamwork-business-join-hand-together-concept-power-of-volunteer-picture-id1017183652?k=20&m=1017183652&s=612x612&w=0&h=G3MUs6fliJ_R_Tj2B_G4mGH1RvWdVjgXnhzokGuaFxI="
           altText="team huddle"
         />
@@ -21,7 +22,8 @@ const StoriesListPage = () => {
           </Col>
         </Row>
       </Container>
-      <DonateBanner />
+      <DonateInterPages />
+      <FollowUs />
     </div>
   );
 };

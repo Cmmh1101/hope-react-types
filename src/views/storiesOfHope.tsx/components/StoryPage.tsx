@@ -4,6 +4,7 @@ import storiesData from "../../../storiesData";
 import BannerDivider from "../../../utils/BannerDivider";
 import DonateInterPages from "../../../utils/DonateInterPages";
 import FollowUs from "../../../utils/FollowUs";
+import HighlightMessage from "../../../utils/HighlightMessage";
 import StoryBannerImageSmall from "../../../utils/StoryBannerImageSmall";
 import NotFoundPage from "../../404page";
 import StoriesList from "./StoriesList";
@@ -62,21 +63,14 @@ const StoryPage = ({ match }: any) => {
               />
             </Col>
           </Col>
+          <HighlightMessage text={article.highligh} />
         </Row>
       </Container>
-      <section className="highlight-section my-5 py-5">
-        <Container>
-          <Row>
-            <Col xs={12} className="mx-auto px-3">
-              <span className="span-highlight">{article.highligh}</span>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+
       <Container>
         <Row>
           <Col xs={12} className="mx-auto px-4">
-            <h4 className="mt-5 mb-0">More stories of Hope</h4>
+            <h4 className="mt-5 mb-5">More stories of Hope</h4>
             <StoriesList />
           </Col>
         </Row>

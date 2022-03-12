@@ -10,7 +10,11 @@ const FacebookFeed = (props: Props) => {
         width="350"
         title="Hope For The Nations"
         height="500"
-        style={{ border: "none", overflow: "hidden" }}
+        style={{
+          border: "none",
+          overflow: "hidden",
+          boxShadow: "0px 0px 28px -1px rgba(0, 0, 0, 0.33)",
+        }}
         scrolling="no"
         frameBorder="0"
         allowFullScreen={true}
