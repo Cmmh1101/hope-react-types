@@ -296,7 +296,15 @@ footer .rights {
   color: var(--white) !important;
 }
 
-/*  */
+/* Follow us */
+
+.follow-header {
+  color: var(--white);
+}
+
+.follow-icons i {
+  font-size: 3rem;
+}
 
 /* ============= RESPONSIVE STYLES ============= */
 /* TODO: */

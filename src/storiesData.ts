@@ -5,7 +5,7 @@ const articles = [
     date: "08/04/2021",
     image: "../../../images/dylanStory/Dylan-Baseball.png",
     icon: "../../../images/bread.png",
-    description: "Hunger Relief",
+    description: "Dylans's Story",
     
       storyImage: {
         image1: "../../../images/dylanStory/Dylan-casa-esperanza.jpeg",

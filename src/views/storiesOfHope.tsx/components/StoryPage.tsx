@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import storiesData from "../../../storiesData";
 import BannerDivider from "../../../utils/BannerDivider";
+import FollowUs from "../../../utils/FollowUs";
 import NotFoundPage from "../../404page";
 import StoriesList from "./StoriesList";
 
@@ -104,6 +105,7 @@ const StoryPage = ({ match }: any) => {
           </Col>
         </Row>
       </Container>
+      <FollowUs />
     </>
   );
 };
