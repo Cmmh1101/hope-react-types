@@ -34,20 +34,27 @@ const StoryPage = ({ match }: any) => {
             <Col xs={12} className="my-5 mx-auto">
               <h3>{article.description} short description</h3>
             </Col>
-            <Col xs={12} className="d-flex">
-              <article className="mx-auto px-0">
+
+            <article className="col-12 mx-autopx-0">
+              <div
+                className="col-xs-12 ml-md-3 mb-5 float-right"
+                style={{ maxWidth: "350px" }}
+              >
                 <img
-                  className="story-side-image ml-5"
+                  style={{ width: "100%" }}
+                  className="ml-5 custom-shadow"
                   src={article.storyImage?.image1}
                   alt={article.storyImage?.alt}
                 />
-                {article.content.map((paragraph, key) => (
-                  <p className="mb-4" key={key}>
-                    {paragraph}
-                  </p>
-                ))}
-              </article>
-            </Col>
+              </div>
+
+              {article.content.map((paragraph, key) => (
+                <p className="mb-4" key={key}>
+                  {paragraph}
+                </p>
+              ))}
+            </article>
+
             <Col xs={12} className="d-flex my-5">
               <StoryBannerImageSmall
                 image={article.storyImage2?.image}

@@ -35,14 +35,14 @@ nav ul li a {
 }
 nav ul li a:hover {
   text-decoration: none;
-  color: var(--blue);
+  color: var(--lighter-blue);
 }
 
 a.drop-item {
   color: var(--dark-blue) !important;
 }
 a.drop-item:hover {
-  color: var(--blue) !important;
+  color: var(--lighter-blue) !important;
 }
 
 .menu-btn-container {
@@ -269,7 +269,7 @@ footer .rights {
 .story-side-image {
   width: 350px;
   /* height: 300px; */
-  float: right;
+  /* float: right; */
   margin: 0 0 20px 20px;
 }
 /* .story-images-container img {
@@ -342,6 +342,24 @@ footer .rights {
 
 /* Team member */
 
+.about-img-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.about-img-container img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+}
+
+.about-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .meet-our-team-wrapper {
   display: flex;
 }
@@ -373,6 +391,16 @@ footer .rights {
 }
 .team-member-card p {
   margin-bottom: 0;
+}
+
+.volunteers-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+}
+.volunteers-wrapper .volunteers {
+  text-align: center;
 }
 
 /* ============= RESPONSIVE STYLES ============= */

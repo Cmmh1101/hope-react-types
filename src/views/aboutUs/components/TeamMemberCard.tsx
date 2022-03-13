@@ -6,10 +6,9 @@ interface Props {
   ocupation: string;
   contact?: string;
   photo: string;
-  location: string;
 }
 
-const TeamMemberCard = ({ fullName, ocupation, photo, location }: Props) => {
+const TeamMemberCard = ({ fullName, ocupation, photo }: Props) => {
   return (
     <Col md={3} className="custom-shadow team-member-card mx-1">
       <div className="team-member-image">
@@ -17,7 +16,6 @@ const TeamMemberCard = ({ fullName, ocupation, photo, location }: Props) => {
       </div>
       <h5>{fullName}</h5>
       <p>{ocupation}</p>
-      <p>{location}</p>
     </Col>
   );
 };
