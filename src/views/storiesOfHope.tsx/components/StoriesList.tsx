@@ -3,11 +3,6 @@ import storiesData from "../../../storiesData";
 import { Col, Row } from "reactstrap";
 import { Link } from "react-router-dom";
 import FacebookFeed from "../../../utils/FacebookFeed";
-import src from "*.avif";
-
-// interface Props {
-//   articles?: any
-// }
 
 const ProgramsList = () => {
   return (
