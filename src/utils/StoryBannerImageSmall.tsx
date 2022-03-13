@@ -7,10 +7,7 @@ interface Props {
 
 const StoryBannerImageSmall = ({ image, altText }: Props) => {
   return (
-    <div
-      className="col-md-4 px-0 story-banner-image"
-      style={{ height: "350px" }}
-    >
+    <div className="col-md-4 px-0 custom-shadow" style={{ height: "350px" }}>
       <img
         style={{
           width: "100%",
