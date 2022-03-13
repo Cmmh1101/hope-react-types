@@ -1,6 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import BannerDivider from "../../utils/BannerDivider";
+import DonateInterPages from "../../utils/DonateInterPages";
+import FollowUs from "../../utils/FollowUs";
 import MainHeader from "../../utils/MainHeader";
 
 interface Props {}
@@ -28,6 +30,7 @@ const Leadership = (props: Props) => {
             className="about-img-container mb-5 d-flex justify-content-center align-items-center"
           >
             <img
+              className="story-banner-image"
               src="https://image.shutterstock.com/image-photo/muzaffarpur-india-may-10-2017-260nw-674314204.jpg"
               alt="kids eating placeholder text"
             />
@@ -47,6 +50,8 @@ const Leadership = (props: Props) => {
           </Col>
         </Row>
       </Container>
+      <DonateInterPages />
+      <FollowUs />
     </>
   );
 };

@@ -27,7 +27,7 @@ const ProgramsList = () => {
               >
                 <Col xs={12} md={6} className="p-0 stories-list-img-containter">
                   <div
-                    className="w-100"
+                    className="w-100 shadow"
                     style={{
                       backgroundImage: `url(${article.image})`,
                       backgroundPosition: "center",

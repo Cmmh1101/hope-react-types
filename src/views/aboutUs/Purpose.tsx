@@ -1,5 +1,7 @@
 import React from "react";
 import BannerDivider from "../../utils/BannerDivider";
+import DonateInterPages from "../../utils/DonateInterPages";
+import FollowUs from "../../utils/FollowUs";
 
 interface Props {}
 
@@ -15,6 +17,8 @@ const Purpose = (props: Props) => {
           altText="kids receiving lunch"
         />
       </div>
+      <DonateInterPages />
+      <FollowUs />
     </>
   );
 };

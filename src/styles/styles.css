@@ -15,6 +15,13 @@ nav {
   transform: scale(1.1);
 }
 
+.nav-active {
+  color: var(--lighter-blue);
+}
+.nav-inactive {
+  color: var(--dark-blue);
+}
+
 nav ul li {
   display: flex;
   align-items: center;
@@ -104,7 +111,7 @@ footer .rights {
 .subtitle-deco {
   font-family: "Crafty Girls";
   font-size: 5rem;
-  color: #3a9ff1;
+  color: var(--lighter-blue);
 }
 
 .intro-section {
@@ -291,13 +298,13 @@ footer .rights {
 /* btn call to action */
 
 .btn-cta {
-  background-color: #00b7ff !important;
+  background-color: var(--lighter-blue) !important;
   color: var(--dark-blue) !important;
   outline: none;
   transition: var(--transition);
 }
 .btn-cta:hover {
-  background-color: #00b7ff !important;
+  background-color: var(--lighter-blue) !important;
   color: var(--white) !important;
 }
 
@@ -320,7 +327,7 @@ footer .rights {
 
 .follow-icons {
   font-size: 3rem;
-  color: #00b7ff;
+  color: var(--lighter-blue);
   transition: var(--transition);
 }
 .follow-icons:hover {
