@@ -35,14 +35,14 @@ const StoryPage = ({ match }: any) => {
               <h3>{article.description} short description</h3>
             </Col>
 
-            <article className="col-12 mx-autopx-0">
+            <Col xs={12} tag="article" className="mx-autopx-0">
               <div
-                className="col-xs-12 ml-md-3 mb-5 float-right"
-                style={{ maxWidth: "350px" }}
+                className="col-xs-12 col-md-4 ml-md-5 mb-3 mb-md-5 px-0 float-right"
+                style={{ height: "400px", maxHeight: "100%" }}
               >
                 <img
-                  style={{ width: "100%" }}
-                  className="ml-5 custom-shadow"
+                  style={{ width: "100%", height: "100%" }}
+                  className="custom-shadow"
                   src={article.storyImage?.image1}
                   alt={article.storyImage?.alt}
                 />
@@ -53,9 +53,9 @@ const StoryPage = ({ match }: any) => {
                   {paragraph}
                 </p>
               ))}
-            </article>
+            </Col>
 
-            <Col xs={12} className="d-flex my-5">
+            <Col xs={12} className="d-flex flex-wrap my-5">
               <StoryBannerImageSmall
                 image={article.storyImage2?.image}
                 altText={article.storyImage2?.alt}

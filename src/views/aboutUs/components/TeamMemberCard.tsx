@@ -10,7 +10,7 @@ interface Props {
 
 const TeamMemberCard = ({ fullName, ocupation, photo }: Props) => {
   return (
-    <Col md={3} className="custom-shadow team-member-card mx-1">
+    <Col className="custom-shadow m-2  team-member-card">
       <div className="team-member-image">
         <img src={photo} alt="profile" />
       </div>

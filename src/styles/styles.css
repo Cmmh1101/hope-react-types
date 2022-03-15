@@ -362,15 +362,22 @@ footer .rights {
 
 .meet-our-team-wrapper {
   display: flex;
+  align-items: center;
+  flex-flow: wrap;
 }
 
 .team-member-card {
   overflow: hidden;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 1rem;
+  min-width: 200px;
+  width: 200px;
+  max-width: 200px;
+  height: 300px;
+  min-height: 350px;
+  text-align: center;
 }
 .team-member-card:hover img {
   transform: scale(1.2);

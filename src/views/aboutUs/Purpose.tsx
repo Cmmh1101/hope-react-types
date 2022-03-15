@@ -21,7 +21,7 @@ const Purpose = () => {
       <Container>
         <Row>
           <MainHeader headerText="Mission" />
-          <Col xs={12}>
+          <Col xs={12} tag="article">
             <div className="col-xs-12 ml-md-3 mb-5 float-right">
               <img
                 style={{ width: "100%" }}
