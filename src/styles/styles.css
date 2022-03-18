@@ -133,7 +133,7 @@ footer .rights {
   color: green;
 }
 
-/* banners */
+/* banners & heros */
 
 .main-banner {
   display: flex;
@@ -211,6 +211,10 @@ footer .rights {
 
 .main-banner .banner-image-overlay {
   background-color: rgba(28, 32, 32, 0.287);
+}
+
+.inner-page-hero {
+  height: 80vh;
 }
 
 /* Programs List */

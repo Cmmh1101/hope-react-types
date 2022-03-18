@@ -19,7 +19,7 @@ const StoryPage = ({ match }: any) => {
 
   return (
     <>
-      <div className="banner-divider mb-5">
+      <div className="banner-divider inner-page-hero mb-5">
         <BannerDivider
           className="banner-content"
           bannerText={article.title}
@@ -29,7 +29,7 @@ const StoryPage = ({ match }: any) => {
       </div>
 
       <Container>
-        <Row className="">
+        <Row>
           <Col xs={12} className="mx-auto p-0">
             <Col xs={12} className="my-5 mx-auto">
               <h3>{article.description} short description</h3>

@@ -3,10 +3,22 @@ const articles = [
     name: "hunger-relief",
     title: "Hunger Relief",
     date: "08/04/2021",
-    image: "../images/hunger2.png",
+    image: "../../../../images/programs/hunger9.png",
     icon: "../../../images/soup-light.png",
     description: "Hunger Relief",
     alt: "",
+    programImage2: {
+        image: "../../../images/dylanStory/Dylan-escuela.jpeg",
+        alt: "Dylan at School"
+    },
+    programImage3: {
+        image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+        alt: "Dylan"
+    },
+    programImage4: {
+        image: "../../../images/dylanStory/Dylan-Baseball.png",
+        alt: "Dylan with a baseball trophy"
+    },
     featured: "true",
     highligh:
       "We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.",
@@ -20,10 +32,22 @@ const articles = [
     name: "sustainable-community-garden",
     title: "Community Garden",
     date: "05/03/2021",
-    image: "https://media.istockphoto.com/photos/team-teamwork-business-join-hand-together-concept-power-of-volunteer-picture-id1017183652?k=20&m=1017183652&s=612x612&w=0&h=G3MUs6fliJ_R_Tj2B_G4mGH1RvWdVjgXnhzokGuaFxI=",
+    image: "../../../../images/programs/garden4.png",
     icon: "../../../images/carrot-light.png",
     description: "Sustainable Community Garden",
     alt: "",
+    programImage2: {
+        image: "../../../images/dylanStory/Dylan-escuela.jpeg",
+        alt: "Dylan at School"
+    },
+    programImage3: {
+        image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+        alt: "Dylan"
+    },
+    programImage4: {
+        image: "../../../images/dylanStory/Dylan-Baseball.png",
+        alt: "Dylan with a baseball trophy"
+    },
     featured: "true",
     highligh: `This project will build community-managed organic vegetables and medicinal plant nurseries, giving the community access to a sustainable source of income. After the harvest, food can be shared among gardeners and their families, and the remaining produce will be for sale to the local community and surrounding markets.Each harvest not only provides members of the cooperative with food, but that food is nutritionally diverse.`,
     content: [
@@ -36,10 +60,22 @@ const articles = [
     name: "fish-farming-program",
     title: "Farming Program",
     date: "04/20/2021",
-    image: "https://media.istockphoto.com/photos/team-teamwork-business-join-hand-together-concept-power-of-volunteer-picture-id1017183652?k=20&m=1017183652&s=612x612&w=0&h=G3MUs6fliJ_R_Tj2B_G4mGH1RvWdVjgXnhzokGuaFxI=",
+    image: "../../../../images/programs/fish1.png",
     icon: "../../../images/fish.png",
     description: "Fish Farming Program",
     alt: "",
+    programImage2: {
+        image: "../../../images/dylanStory/Dylan-escuela.jpeg",
+        alt: "Dylan at School"
+    },
+    programImage3: {
+        image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+        alt: "Dylan"
+    },
+    programImage4: {
+        image: "../../../images/dylanStory/Dylan-Baseball.png",
+        alt: "Dylan with a baseball trophy"
+    },
     featured: "true",
     highligh: `The fish harvest will provide a great resource of protein food sources. Also, farmers can sell part of the fish to the community in order to generate income. Fish will be selling for half price in order to benefit the community giving farmers a sustainable source of income.
 
@@ -54,10 +90,22 @@ The project integrates solutions to socio-economic and environmental challenges 
     name: "sustainable-work-program",
     title: "Lights Of Hope",
     date: "04/16/2021",
-    image: "https://media.istockphoto.com/photos/team-teamwork-business-join-hand-together-concept-power-of-volunteer-picture-id1017183652?k=20&m=1017183652&s=612x612&w=0&h=G3MUs6fliJ_R_Tj2B_G4mGH1RvWdVjgXnhzokGuaFxI=",
+    image: "../../../../images/programs/entrepreneurship.png",
     icon: "../../../images/entrepreneurship.png",
     description: "Sustainable Work Program",
     alt: "",
+    programImage2: {
+        image: "../../../images/dylanStory/Dylan-escuela.jpeg",
+        alt: "Dylan at School"
+    },
+    programImage3: {
+        image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+        alt: "Dylan"
+    },
+    programImage4: {
+        image: "../../../images/dylanStory/Dylan-Baseball.png",
+        alt: "Dylan with a baseball trophy"
+    },
     featured: "false",
     highligh: `Participants will gain the necessary skills to confidently engage in society and help change not only their own lives but countless others through their local communities, with the essential knowledge and skills for the creation of new employment opportunities, a deeper understanding of sustainable development. Here some of the participants of the work program "Light of Hope."`,
     content: [
@@ -69,13 +117,25 @@ The project integrates solutions to socio-economic and environmental challenges 
     ],
   },
   {
-    name: "fish-farming-program",
-    title: "Farming Program",
+    name: "elderly-care-program",
+    title: "Elderly Minister",
     date: "04/20/2021",
-    image: "https://media.istockphoto.com/photos/team-teamwork-business-join-hand-together-concept-power-of-volunteer-picture-id1017183652?k=20&m=1017183652&s=612x612&w=0&h=G3MUs6fliJ_R_Tj2B_G4mGH1RvWdVjgXnhzokGuaFxI=",
+    image: "../../../../images/programs/casa-Hogar-el-conde1.jpg",
     icon: "../../../images/wheat.png",
     description: "Fish Farming Program",
     alt: "",
+    programImage2: {
+        image: "../../../../images/programs/casa-Hogar-el-conde1.jpg",
+        alt: "Dylan at School"
+    },
+    programImage3: {
+        image: "../../../../images/programs/casa-Hogar-el-conde2.jpg",
+        alt: "Dylan"
+    },
+    programImage4: {
+        image: "../../../../images/programs/casa-hogar-en-caracas.jpg",
+        alt: "Dylan with a baseball trophy"
+    },
     featured: "true",
     highligh: `The fish harvest will provide a great resource of protein food sources. Also, farmers can sell part of the fish to the community in order to generate income. Fish will be selling for half price in order to benefit the community giving farmers a sustainable source of income.
 
@@ -90,10 +150,22 @@ The project integrates solutions to socio-economic and environmental challenges 
     name: "hope-sports-program",
     title: "Hope Sports",
     date: "04/16/2021",
-    image: "https://media.istockphoto.com/photos/team-teamwork-business-join-hand-together-concept-power-of-volunteer-picture-id1017183652?k=20&m=1017183652&s=612x612&w=0&h=G3MUs6fliJ_R_Tj2B_G4mGH1RvWdVjgXnhzokGuaFxI=",
+    image: "../../../../images/programs/sports3.png",
     icon: "../../../images/sports.png",
-    description: "Sustainable Work Program",
+    description: "Hope Sports Program",
     alt: "",
+    programImage2: {
+        image: "../../../images/dylanStory/Dylan-escuela.jpeg",
+        alt: "Dylan at School"
+    },
+    programImage3: {
+        image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+        alt: "Dylan"
+    },
+    programImage4: {
+        image: "../../../images/dylanStory/Dylan-Baseball.png",
+        alt: "Dylan with a baseball trophy"
+    },
     featured: "false",
     highligh: `We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.`,
     content: [

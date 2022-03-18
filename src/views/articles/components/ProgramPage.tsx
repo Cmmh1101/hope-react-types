@@ -5,6 +5,7 @@ import BannerDivider from "../../../utils/BannerDivider";
 import DonateInterPages from "../../../utils/DonateInterPages";
 import FollowUs from "../../../utils/FollowUs";
 import HighlightMessage from "../../../utils/HighlightMessage";
+import StoryBannerImageSmall from "../../../utils/StoryBannerImageSmall";
 import NotFoundPage from "../../404page";
 import ProgramsList from "./ProgramsList";
 
@@ -18,7 +19,7 @@ const ProgramPage = ({ match }: any) => {
 
   return (
     <>
-      <header className="banner-divider">
+      <header className="banner-divider inner-page-hero">
         <BannerDivider
           className="banner-content"
           bannerText={article.title}
@@ -46,7 +47,22 @@ const ProgramPage = ({ match }: any) => {
                 allowFullScreen
               ></iframe>
             </Col>
+            <Col xs={12} className="d-flex flex-wrap my-5">
+              <StoryBannerImageSmall
+                image={article.programImage2?.image}
+                altText={article.programImage2?.alt}
+              />
+              <StoryBannerImageSmall
+                image={article.programImage4?.image}
+                altText={article.programImage4?.alt}
+              />
+              <StoryBannerImageSmall
+                image={article.programImage3?.image}
+                altText={article.programImage3?.alt}
+              />
+            </Col>
             <HighlightMessage text={article.highligh} customClass="my-5" />
+
             <Col xs={12} className="mx-auto px-4">
               <h4 className="my-5 mb-0">Our Programs</h4>
               <ProgramsList />
