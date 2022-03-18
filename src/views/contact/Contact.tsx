@@ -42,7 +42,7 @@ const Contact = (props: Props) => {
               </p>
               <p>
                 Email:{" "}
-                <a href="mailto:support@example.com, subject=Mail from our Website&body=Some body text here">
+                <a href="mailto:support@example.com, subject=Mail from our Website">
                   Send Email
                 </a>
               </p>
