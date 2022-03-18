@@ -12,6 +12,7 @@ const GoogleMap = (props: Props) => {
         style={{ border: 0, minHeight: "300px" }}
         allowFullScreen={false}
         loading="lazy"
+        title="Map"
       />
     </div>
   );
