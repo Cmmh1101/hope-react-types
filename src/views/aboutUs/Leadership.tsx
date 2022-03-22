@@ -126,7 +126,7 @@ const Leadership = (props: Props) => {
           <Col xs={12} className="my-5">
             <h4 className="text-center">Ambassadors - Venezuela</h4>
           </Col>
-          <Col xs={12} className="volunteers-wrapper">
+          <Col xs={12} className="volunteers-wrapper mx-auto">
             {volunteers.map((volunt) => (
               <Col xs={12} md={3} className="volunteers my-5">
                 <h5>{volunt.fullName}</h5>
