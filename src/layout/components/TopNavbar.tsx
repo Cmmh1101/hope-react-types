@@ -65,7 +65,7 @@ const TopNavbar = ({ props }: any) => {
               <DropdownToggle className="drop-item px-0" nav caret>
                 Who We Are
               </DropdownToggle>
-              <DropdownMenu left>
+              <DropdownMenu>
                 <DropdownItem>
                   <NavLink
                     to="/purpose"

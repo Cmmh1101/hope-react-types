@@ -6,9 +6,7 @@ import FollowUs from "../../utils/FollowUs";
 import MainHeader from "../../utils/MainHeader";
 import TeamMemberCard from "./components/TeamMemberCard";
 
-interface Props {}
-
-const Leadership = (props: Props) => {
+const Leadership = () => {
   const teamMembers = [
     {
       fullName: "Luzbell Wood",
@@ -128,7 +126,12 @@ const Leadership = (props: Props) => {
           </Col>
           <Col xs={12} className="volunteers-wrapper mx-auto">
             {volunteers.map((volunt) => (
-              <Col xs={12} md={3} className="volunteers my-5">
+              <Col
+                key={volunt.fullName}
+                xs={12}
+                md={3}
+                className="volunteers my-5"
+              >
                 <h5>{volunt.fullName}</h5>
                 <p>{volunt.ocupation}</p>
                 <p>{volunt.project}</p>
