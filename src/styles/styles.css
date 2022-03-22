@@ -170,7 +170,7 @@ footer .rights {
 }
 .banner-divider-principal-text h2 {
   font-family: "Crafty Girls";
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 .banner-divider-principal-text p {
@@ -215,6 +215,9 @@ footer .rights {
 
 .inner-page-hero {
   height: 80vh;
+}
+.inner-page-hero .banner-divider-principal-text {
+  margin-top: 20%;
 }
 
 /* Programs List */

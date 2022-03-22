@@ -15,7 +15,7 @@ const HomePage = () => {
           className="banner-content"
           bannerText="HOPE FOR THE NATIONS"
           bannerContent="Blessing our communities with love and hope."
-          imgSrc="https://image.shutterstock.com/image-photo/muzaffarpur-india-may-10-2017-260nw-674314204.jpg"
+          imgSrc="../../../images/dylanStory/Dylan-escuela.jpeg"
           altText="kids receiving lunch"
         />
       </div>

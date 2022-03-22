@@ -16,8 +16,8 @@ const Contact = (props: Props) => {
           className="banner-content"
           bannerText="CONTACT US"
           bannerContent=""
-          imgSrc="https://image.shutterstock.com/image-photo/muzaffarpur-india-may-10-2017-260nw-674314204.jpg"
-          altText="kids receiving lunch"
+          imgSrc="../../../images/voluntarios.jpg"
+          altText="Hope For The Nations Volunteers - Venezuela"
         />
       </div>
       <Container>
