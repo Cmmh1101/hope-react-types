@@ -16,7 +16,9 @@ import {
 const TopNavbar = ({ props }: any) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggle = () => setIsOpen(!isOpen);
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <div>
@@ -40,7 +42,6 @@ const TopNavbar = ({ props }: any) => {
             }}
             target="_blank"
             className="btn text-light btn-cta d-sm-flex mr-2 d-md-none menu-btn"
-            onClick={toggle}
           >
             Donate
           </NavLink>
@@ -52,7 +53,7 @@ const TopNavbar = ({ props }: any) => {
             <NavItem tag="li" className="navigation-link my-2 my-md-0">
               <NavLink
                 to="/"
-                onClick={toggle}
+                // onClick={toggle}
                 // className={(isActive) =>
                 //   "nav-active" + (!isActive ? "nav-inactive" : "")
                 // }
@@ -67,49 +68,29 @@ const TopNavbar = ({ props }: any) => {
               </DropdownToggle>
               <DropdownMenu>
                 <DropdownItem>
-                  <NavLink
-                    to="/purpose"
-                    onClick={toggle}
-                    activeClassName="nav-active"
-                  >
+                  <NavLink to="/purpose" activeClassName="nav-active">
                     Our Purpose
                   </NavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <NavLink
-                    to="/leadership"
-                    onClick={toggle}
-                    activeClassName="nav-active"
-                  >
+                  <NavLink to="/leadership" activeClassName="nav-active">
                     Leadership
                   </NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem tag="li" className="navigation-link my-2 my-md-0">
-              <NavLink
-                to="/programs"
-                onClick={toggle}
-                activeClassName="nav-active"
-              >
+              <NavLink to="/programs" activeClassName="nav-active">
                 Programs
               </NavLink>
             </NavItem>
             <NavItem tag="li" className="navigation-link my-2 my-md-0">
-              <NavLink
-                to="/storiesOfHope"
-                onClick={toggle}
-                activeClassName="nav-active"
-              >
+              <NavLink to="/storiesOfHope" activeClassName="nav-active">
                 Blog
               </NavLink>
             </NavItem>
             <NavItem tag="li" className="navigation-link my-2 my-md-0">
-              <NavLink
-                to="/contactUs"
-                onClick={toggle}
-                activeClassName="nav-active"
-              >
+              <NavLink to="/contactUs" activeClassName="nav-active">
                 Contact
               </NavLink>
             </NavItem>
@@ -121,7 +102,6 @@ const TopNavbar = ({ props }: any) => {
                 }}
                 target="_blank"
                 className="btn btn-cta d-none d-md-flex"
-                onClick={toggle}
               >
                 Donate
               </NavLink>
