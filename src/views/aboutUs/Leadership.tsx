@@ -124,7 +124,7 @@ const Leadership = () => {
           <Col xs={12} className="my-5">
             <h4 className="text-center">Ambassadors - Venezuela</h4>
           </Col>
-          <Col xs={12} className="volunteers-wrapper mx-auto">
+          <Col xs={12} className="volunteers-wrapper">
             {volunteers.map((volunt) => (
               <Col
                 key={volunt.fullName}

@@ -379,6 +379,7 @@ footer .follow-icons:hover {
 .meet-our-team-wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-flow: wrap;
 }
 
