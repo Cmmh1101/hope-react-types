@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Col, Container, Row } from "reactstrap";
@@ -30,14 +32,30 @@ const Footer = () => {
           </Col>
           <Col sm={6} md={3} className="footer-col">
             <h4>FOLLOW US</h4>
-            <Link to="/">
-              <i className="fa fa-facebook" aria-hidden="true" />
-              Facebook
-            </Link>
-            <Link to="/">
-              <i className="fa fa-facebook" aria-hidden="true" />
-              YouTube
-            </Link>
+            <Col
+              xs={12}
+              className="d-flex mt-0 justify-content-center align-items-center"
+            >
+              <Link
+                to={{
+                  pathname: "https://www.facebook.com/hopeforthenations7",
+                }}
+                target="_blank"
+                className="mx-4"
+              >
+                <FontAwesomeIcon icon={faFacebook} className="follow-icons" />
+              </Link>
+              <Link
+                to={{
+                  pathname:
+                    "https://www.youtube.com/channel/UCN0GdsHHo__oHqqZ63IUB7g",
+                }}
+                target="_blank"
+                className="mx-4"
+              >
+                <FontAwesomeIcon icon={faYoutube} className="follow-icons" />
+              </Link>
+            </Col>
           </Col>
         </Row>
       </Container>

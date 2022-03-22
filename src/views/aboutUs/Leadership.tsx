@@ -60,13 +60,13 @@ const Leadership = (props: Props) => {
 
   return (
     <>
-      <div className="banner-divider mb-5">
+      <div className="banner-divider inner-page-hero mb-5">
         <BannerDivider
           className="banner-content"
           bannerText="LEADERSHIP"
           bannerContent="Who We Are"
-          imgSrc="https://image.shutterstock.com/image-photo/muzaffarpur-india-may-10-2017-260nw-674314204.jpg"
-          altText="kids receiving lunch"
+          imgSrc="../../../../images/voluntarios.jpg"
+          altText="Hope For The Nations Volunteers - Venezuela"
         />
       </div>
       <Container>
@@ -88,15 +88,14 @@ const Leadership = (props: Props) => {
               de la fundadora, familia.
             </p>
             <p>
-              Aqui va a ir una descripcion de la fundadora, familia, historia y
-              que incentivo a formar la orgnizacion Aqui va a ir una descripcion
-              de la fundadora, familia, historia y que incentivo a formar la
-              orgnizacion Aqui va a ir una.
+              Una foto familiar puede verse bien aqui...Aqui va a ir una
+              descripcion de la fundadora, familia, historia y que incentivo a
+              formar la orgnizacion Aqui va a ir una.
             </p>
             <p>
-              Aqui va a ir una descripcion de la fundadora, familia, historia y
-              que incentivo a formar la orgnizacion Aqui va a ir una descripcion
-              de la fundadora, familia.
+              Hay que buscar una foto que se vea bien aqui en el banner de abajo
+              y que incentivo a formar la orgnizacion Aqui va a ir una
+              descripcion de la fundadora, familia.
             </p>
           </Col>
         </Row>

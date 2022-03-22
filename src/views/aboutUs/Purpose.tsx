@@ -9,13 +9,13 @@ import MainHeader from "../../utils/MainHeader";
 const Purpose = () => {
   return (
     <>
-      <div className="banner-divider mb-5">
+      <div className="banner-divider inner-page-hero mb-5">
         <BannerDivider
           className="banner-content"
           bannerText="PURPOSE"
           bannerContent="Who We Are"
           imgSrc="../../../../images/voluntarios.jpg"
-          altText="kids receiving lunch"
+          altText="Hope For The Nations Volunteers - Venezuela"
         />
       </div>
       <Container>

@@ -19,11 +19,24 @@ const FollowUs = (props: Props) => {
             <MainHeader headerText="Follow Us" customClass="follow-header" />
           </Col>
           <Col xs={12} md={4} xl={4} className="follow-links mb-5">
-            <Link to="/" className="mx-5">
+            <Link
+              to={{
+                pathname: "https://www.facebook.com/hopeforthenations7",
+              }}
+              target="_blank"
+              className="mx-5"
+            >
               <FontAwesomeIcon icon={faFacebook} className="follow-icons" />
             </Link>
-            <Link to="/" className="mx-5 follow-icons">
-              <FontAwesomeIcon icon={faYoutube} />
+            <Link
+              to={{
+                pathname:
+                  "https://www.youtube.com/channel/UCN0GdsHHo__oHqqZ63IUB7g",
+              }}
+              target="_blank"
+              className="mx-5"
+            >
+              <FontAwesomeIcon icon={faYoutube} className="follow-icons" />
             </Link>
           </Col>
         </Col>
