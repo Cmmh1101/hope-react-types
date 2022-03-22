@@ -34,7 +34,7 @@ const Footer = () => {
             <h4>FOLLOW US</h4>
             <Col
               xs={12}
-              className="d-flex mt-0 justify-content-center align-items-center"
+              className="d-flex mt-0 follow-icons-footer justify-content-center align-items-center"
             >
               <Link
                 to={{

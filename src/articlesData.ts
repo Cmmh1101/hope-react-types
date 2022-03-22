@@ -121,7 +121,7 @@ The project integrates solutions to socio-economic and environmental challenges 
     title: "Elderly Minister",
     date: "04/20/2021",
     image: "../../../../images/programs/casa-Hogar-el-conde1.jpg",
-    icon: "../../../images/wheat.png",
+    icon: "../../../images/couple.png",
     description: "Fish Farming Program",
     alt: "",
     programImage2: {

@@ -11,7 +11,11 @@ const ProgramsList = () => {
         {articlesData.map((article, key) => {
           return (
             <Col xs={12} md={4} key={key} className="programs-list  px-3">
-              <img src={article.icon} alt={article.title} className="my-3" />
+              <img
+                src={article.icon}
+                alt={article.title}
+                className="my-3 program-icon"
+              />
 
               <h4 className="my-3">{article.title}</h4>
               <p className="text-center">

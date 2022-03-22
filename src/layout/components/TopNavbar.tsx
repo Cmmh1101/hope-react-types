@@ -32,25 +32,24 @@ const TopNavbar = ({ props }: any) => {
           />{" "}
           <div className="d-md-none d-lg-flex">Hope For The Nations</div>
         </NavbarBrand>
-        <div className="menu-btn-container">
+        <div className="d-flex">
           <NavLink
             to={{
               pathname:
                 "https://www.paypal.com/donate?hosted_button_id=JWBZEQHW76WC4",
             }}
             target="_blank"
-            className="btn text-light btn-cta d-sm-flex d-md-none menu-btn"
+            className="btn text-light btn-cta d-sm-flex mr-2 d-md-none menu-btn"
             onClick={toggle}
           >
             Donate
           </NavLink>
+          <NavbarToggler onClick={toggle} />
         </div>
-
-        <NavbarToggler onClick={toggle} />
 
         <Collapse isOpen={isOpen} navbar>
           <Nav tag="ul" className="ml-auto" navbar>
-            <NavItem tag="li" className="navigation-link">
+            <NavItem tag="li" className="navigation-link my-2 my-md-0">
               <NavLink
                 to="/"
                 onClick={toggle}
@@ -62,11 +61,11 @@ const TopNavbar = ({ props }: any) => {
                 Home
               </NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
+            <UncontrolledDropdown nav>
               <DropdownToggle className="drop-item px-0" nav caret>
                 Who We Are
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu left>
                 <DropdownItem>
                   <NavLink
                     to="/purpose"
@@ -87,7 +86,7 @@ const TopNavbar = ({ props }: any) => {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-            <NavItem tag="li" className="navigation-link">
+            <NavItem tag="li" className="navigation-link my-2 my-md-0">
               <NavLink
                 to="/programs"
                 onClick={toggle}
@@ -96,16 +95,16 @@ const TopNavbar = ({ props }: any) => {
                 Programs
               </NavLink>
             </NavItem>
-            <NavItem tag="li" className="navigation-link">
+            <NavItem tag="li" className="navigation-link my-2 my-md-0">
               <NavLink
                 to="/storiesOfHope"
                 onClick={toggle}
                 activeClassName="nav-active"
               >
-                Stories of Hope
+                Blog
               </NavLink>
             </NavItem>
-            <NavItem tag="li" className="navigation-link">
+            <NavItem tag="li" className="navigation-link my-2 my-md-0">
               <NavLink
                 to="/contactUs"
                 onClick={toggle}
