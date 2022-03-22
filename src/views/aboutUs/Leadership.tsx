@@ -111,7 +111,7 @@ const Leadership = () => {
         <Row className="mt-5">
           <MainHeader headerText="Meet Our Team" />
 
-          <Col xs={12} className="meet-our-team-wrapper mb-5">
+          <Col className="meet-our-team-wrapper mb-5">
             {teamMembers.map((member) => (
               <TeamMemberCard
                 key={member.fullName}
