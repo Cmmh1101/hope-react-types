@@ -43,7 +43,7 @@ const articles = [
     description: "Ana Jimenez",
     storyImage: {
         image1: "../../../images/storiesImgs/ana1.jpg",
-        alt: "Familia Perez recibiendo herramientas de trabajo para su reposteria en el hogar"
+        alt: "Ana Jimenez"
     },
       storyImage2: {
         image: "../../../images/storiesImgs/ana2.jpg",

@@ -32,7 +32,7 @@ const StoryPage = ({ match }: any) => {
         <Row>
           <Col xs={12} className="mx-auto p-0">
             <Col xs={12} className="my-5 mx-auto">
-              <h3>{article.description} short description</h3>
+              <h3>{article.description}</h3>
             </Col>
 
             <Col xs={12} tag="article" className="mx-autopx-0">
