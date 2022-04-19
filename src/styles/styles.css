@@ -141,7 +141,7 @@ footer .follow-icons:hover {
 .main-banner {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   text-align: center;
   width: 100%;
   height: 100vh;

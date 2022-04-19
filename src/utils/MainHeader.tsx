@@ -15,7 +15,7 @@ const MainHeader = ({
   subTitleDeco,
 }: Props) => {
   return (
-    <Col xs={12} className={`main-header mx-auto py-5 ${customClass}`}>
+    <Col xs={12} className={`main-header mx-auto pt-5 ${customClass}`}>
       <h2 className={customClass}>{headerText}</h2>
       <span className="subtitle-deco">{subTitleDeco}</span>
       <p>{subText}</p>

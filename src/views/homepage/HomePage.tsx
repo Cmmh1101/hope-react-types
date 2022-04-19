@@ -15,8 +15,8 @@ const HomePage = () => {
           className="banner-content"
           bannerText="HOPE FOR THE NATIONS"
           bannerContent="Blessing our communities with love and hope."
-          imgSrc="../../../images/dylanStory/Dylan-escuela.jpeg"
-          altText="kids receiving lunch"
+          imgSrc="../../../images/hero-image.jpg"
+          altText="Boy seated on the sidewalk"
         />
       </div>
       <Container>

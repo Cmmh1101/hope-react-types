@@ -20,7 +20,7 @@ const BannerDivider = ({
     <>
       <Container>
         <Row>
-          <Col xs={12} className="mx-auto">
+          <Col xs={12} className="mx-auto mb-5">
             <MainHeader
               headerText={bannerText}
               subText={bannerContent}
@@ -29,12 +29,6 @@ const BannerDivider = ({
           </Col>
         </Row>
       </Container>
-
-      {/* <MainHeader
-        headerText={bannerText}
-        subText={bannerContent}
-        customClass="banner-divider-text-color"
-      /> */}
       <div className="banner-image-container">
         <img className="banner-image" src={imgSrc} alt={altText} />
       </div>
