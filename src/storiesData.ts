@@ -3,23 +3,23 @@ const articles = [
     name: "dylans-story",
     title: "Dylan’s story",
     date: "08/04/2021",
-    image: "../../../images/dylanStory/Dylan-Baseball.png",
+    image: "../../../images/storiesImgs/Dylan-Baseball.png",
     icon: "../../../images/bread.png",
     description: "Dylans's Story",
     storyImage: {
-        image1: "../../../images/dylanStory/Dylan-casa-esperanza.jpeg",
+        image1: "../../../images/storiesImgs/Dylan-casa-esperanza.jpeg",
         alt: "Familia Perez recibiendo herramientas de trabajo para su reposteria en el hogar"
     },
     storyImage2: {
-        image: "../../../images/dylanStory/Dylan-escuela.jpeg",
+        image: "../../../images/storiesImgs/Dylan-escuela.jpeg",
         alt: "Dylan at School"
     },
     storyImage3: {
-        image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+        image: "../../../images/storiesImgs/Dylan-bandera-Venezuela.jpeg",
         alt: "Dylan"
     },
     storyImage4: {
-        image: "../../../images/dylanStory/Dylan-Baseball.png",
+        image: "../../../images/storiesImgs/Dylan-Baseball.png",
         alt: "Dylan with a baseball trophy"
     },
     
@@ -38,13 +38,13 @@ const articles = [
     name: "anas-story",
     title: "Ana’s story",
     date: "08/04/2021",
-    image: "../../../images/ana1.jpg",
+    image: "../../../images/storiesImgs/ana1.jpg",
     icon: "../../../images/bread.png",
     description: "Hunger Relief",
     images: {
       storyImage: [
         {
-          image: ["../../../images/ana2.jpg"]
+          image: ["../../../images/storiesImgs/ana2.jpg"]
         },
         {
           alt: "Ana after receiving her Glasses Donation"
@@ -52,7 +52,7 @@ const articles = [
       ],
       storyImage2: [
         {
-          image: ["../../../images/ana1.jpg"]
+          image: ["../../../images/storiesImgs/ana1.jpg"]
         },
         {
           alt: "Ana after receiving her Glasses Donation"
@@ -60,7 +60,7 @@ const articles = [
       ],
       storyImage3: [
         {
-          image: ["../../../images/ana1.jpg"]
+          image: ["../../../images/storiesImgs/ana1.jpg"]
         },
         {
           alt: "Ana after receiving her Glasses Donation"
