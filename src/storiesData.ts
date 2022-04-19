@@ -40,33 +40,25 @@ const articles = [
     date: "08/04/2021",
     image: "../../../images/storiesImgs/ana1.jpg",
     icon: "../../../images/bread.png",
-    description: "Hunger Relief",
-    images: {
-      storyImage: [
-        {
-          image: ["../../../images/storiesImgs/ana2.jpg"]
-        },
-        {
-          alt: "Ana after receiving her Glasses Donation"
-        }
-      ],
-      storyImage2: [
-        {
-          image: ["../../../images/storiesImgs/ana1.jpg"]
-        },
-        {
-          alt: "Ana after receiving her Glasses Donation"
-        }
-      ],
-      storyImage3: [
-        {
-          image: ["../../../images/storiesImgs/ana1.jpg"]
-        },
-        {
-          alt: "Ana after receiving her Glasses Donation"
-        }
-      ],
+    description: "Ana Jimenez",
+    storyImage: {
+        image1: "../../../images/storiesImgs/ana1.jpg",
+        alt: "Familia Perez recibiendo herramientas de trabajo para su reposteria en el hogar"
     },
+      storyImage2: {
+        image: "../../../images/storiesImgs/ana2.jpg",
+        alt: "Ana Jimenez"
+    },
+    storyImage3: {
+        image: "../../../images/storiesImgs/ana1.jpg",
+        alt: "Ana Jimenez"
+    },
+    storyImage4: {
+        image: "../../../images/storiesImgs/ana1.jpg",
+        alt: "Dylan with a baseball trophy"
+    },
+      
+    
     alt: "Ana after receiving her Glasses Donation",
     
     featured: "true",
