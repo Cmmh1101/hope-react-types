@@ -95,15 +95,15 @@ The project integrates solutions to socio-economic and environmental challenges 
     description: "Sustainable Work Program",
     alt: "",
     programImage2: {
-        image: "../../../images/dylanStory/Dylan-escuela.jpeg",
+        image: "../images/programs/05b72859-b164-4083-8d88-1566b273c68b (1).JPG",
         alt: "Dylan at School"
     },
     programImage3: {
-        image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
-        alt: "Dylan"
+        image: "../images/programs/entrepreneurship.png",
+        alt: "Hair salon suplies beneficiary"
     },
     programImage4: {
-        image: "../../../images/dylanStory/Dylan-Baseball.png",
+        image: "../images/programs/7357eb5a-370d-45ea-b5a2-4ecd6613c64b.JPG",
         alt: "Dylan with a baseball trophy"
     },
     featured: "false",
