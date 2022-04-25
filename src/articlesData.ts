@@ -38,16 +38,16 @@ const articles = [
     alt: "",
     programImage2: {
         image: "../images/programs/farming4.png",
-        alt: "Dylan at School"
+        alt: "Men working the garden"
     },
     programImage3: {
         image: "../images/programs/community-garden-fruit.jpg",
-        alt: "Dylan"
+        alt: "Papaya from the community garden"
     },
     programImage4: {
         
         image: "../images/programs/community-garden-banner.jpg",
-        alt: "Dylan with a baseball trophy"
+        alt: "Community garden banner"
     },
     featured: "true",
     highligh: `This project will build community-managed organic vegetables and medicinal plant nurseries, giving the community access to a sustainable source of income. After the harvest, food can be shared among gardeners and their families, and the remaining produce will be for sale to the local community and surrounding markets.Each harvest not only provides members of the cooperative with food, but that food is nutritionally diverse.`,
@@ -123,7 +123,7 @@ The project integrates solutions to socio-economic and environmental challenges 
     date: "04/20/2021",
     image: "../../../../images/programs/casa-Hogar-el-conde1.jpg",
     icon: "../../../images/couple.png",
-    description: "Fish Farming Program",
+    description: "Elerly Minister",
     alt: "",
     programImage2: {
         image: "../../../../images/programs/casa-Hogar-el-conde1.jpg",
@@ -138,13 +138,13 @@ The project integrates solutions to socio-economic and environmental challenges 
         alt: "Dylan with a baseball trophy"
     },
     featured: "true",
-    highligh: `The fish harvest will provide a great resource of protein food sources. Also, farmers can sell part of the fish to the community in order to generate income. Fish will be selling for half price in order to benefit the community giving farmers a sustainable source of income.
-
-The project integrates solutions to socio-economic and environmental challenges and will empower Christians women and men from the city of Maracay, Aragua in Venezuela.`,
+    highligh: `A grandfather is a book written with a lot of pages. The gray hair shows wisdom, and the lines on his face show their journey through life. They are like magic books full of adventure and lots of life lessons.`,
     content: [
-      `The goal of fishing farming (aquaculture) is to teach fish farming skills to the community's people. The purpose is to provide a living for families and feeding the population that lives in disadvantaged areas.`,
-      `The idea of supporting the community with the project "Waters of Hope." Fish farming will help many families and bring food to these communities at the same time they become independently self-sufficient. Venezuela is going through a difficult economic situation where thousands of families suffer from food shortages.`,
-      `The idea of supporting the community with the project “Waters of Hope” starts with a group of Christians group that get together to find a solution with the current situation of the country. A fish farming initiative helps many families and brings food to the community. Hope for the Nations provides training, material, tools and support and work with other fish farmers from the United States.`,
+      `A grandfather is a book written with a lot of pages. The gray hair shows wisdom, and the lines on his face show their journey through life. They are like magic books full of adventure and lots of life lessons. So if you have a grandfather in your life, open that book. I promise you it will be unforgettable and sometimes fun.`,
+      `Honor those grandparents who, in one way or another, pass through your life. The Word of God teaches to respect our elders, honor them, listen to them, accompany them, hug them, value their advice, and learn from their stories. “Stand up in the presence of the aged, show respect for the elderly…..Leviticus 19:32.`,
+      `We enjoyed seeing their smiles, knowing we can show them love and remind them that God cares for them. Disfrutamos viendo sus sonrisas, sabiendo que podemos mostrarle amor y recordarles que Dios se preocupa por ellos.`,
+`Did you know there are simple ways to help Elderly homes like this, like donating household items such as new bedding? Please help us to help them.
+`,
     ],
   },
   {
