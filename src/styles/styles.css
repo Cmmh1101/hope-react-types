@@ -219,9 +219,9 @@ footer .follow-icons:hover {
 .inner-page-hero {
   height: 80vh;
 }
-.inner-page-hero .banner-divider-principal-text {
-  /* margin-top: 20%; */
-}
+/* .inner-page-hero .banner-divider-principal-text {
+  margin-top: 20%;
+} */
 .inner-page-hero .banner-image-overlay {
   background-color: rgba(111, 112, 112, 0.472);
 }
