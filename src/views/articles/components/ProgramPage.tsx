@@ -31,7 +31,7 @@ const ProgramPage = ({ match }: any) => {
         <Row>
           <Col xs={12} className="mx-auto">
             <Col xs={12} className="my-5 mx-auto">
-              <h3 className="my-5">{article.description} short description</h3>
+              <h3 className="my-5">{article.description}</h3>
               {article.content.map((paragraph, key) => (
                 <p key={key}>{paragraph}</p>
               ))}
