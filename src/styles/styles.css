@@ -105,7 +105,7 @@ footer .follow-icons:hover {
   color: #1a4ebd;
 }
 .main-header h2 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 900;
 }
 .main-header p {
@@ -172,7 +172,7 @@ footer .follow-icons:hover {
   z-index: 50;
 }
 .banner-divider-principal-text h2 {
-  font-family: "Crafty Girls";
+  /* font-family: "Crafty Girls"; */
   font-size: 4rem;
 }
 
@@ -220,10 +220,23 @@ footer .follow-icons:hover {
   height: 80vh;
 }
 .inner-page-hero .banner-divider-principal-text {
-  margin-top: 20%;
+  /* margin-top: 20%; */
 }
 .inner-page-hero .banner-image-overlay {
   background-color: rgba(111, 112, 112, 0.472);
+}
+.inner-page-hero h2 {
+  font-size: 45px;
+  color: var(--dark-blue);
+  margin-top: -40px;
+  text-shadow: none;
+  font-weight: 900;
+}
+.inner-page-hero span {
+  color: rgba(255, 255, 255, 0.616);
+  font-size: 100px;
+  letter-spacing: 10px;
+  font-weight: 900;
 }
 
 /* Programs List */
@@ -249,7 +262,7 @@ footer .follow-icons:hover {
 
 .span-highlight {
   font-size: 26px;
-  font-family: "Crafty Girls";
+  /* font-family: "Crafty Girls"; */
 }
 
 /* stories */

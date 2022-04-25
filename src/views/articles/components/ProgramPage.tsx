@@ -22,6 +22,7 @@ const ProgramPage = ({ match }: any) => {
       <header className="banner-divider inner-page-hero">
         <BannerDivider
           className="banner-content"
+          sectionTitle="Programs"
           bannerText={article.title}
           imgSrc={article.image}
           altText={article.alt}
@@ -30,22 +31,25 @@ const ProgramPage = ({ match }: any) => {
       <Container>
         <Row>
           <Col xs={12} className="mx-auto">
-            <Col xs={12} className="my-5 mx-auto">
-              <h3 className="my-5">{article.description}</h3>
-              {article.content.map((paragraph, key) => (
-                <p key={key}>{paragraph}</p>
-              ))}
-            </Col>
-            <Col xs={12} className="mt-5">
-              <iframe
-                width="100%"
-                height="400"
-                src="https://www.youtube.com/embed/E1xkXZs0cAQ"
-                title="YouTube video player"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+            <h3 className="my-5">{article.description}</h3>
+            <Col xs={12} className="mx-auto d-md-flex">
+              <Col xs={12} md={6} className="my-5 mx-auto mx-md-0">
+                {article.content.map((paragraph, key) => (
+                  <p key={key}>{paragraph}</p>
+                ))}
+              </Col>
+              <Col xs={12} md={6} className="mt-5">
+                <iframe
+                  className="custom-shadow"
+                  width="100%"
+                  height="400px"
+                  src="https://www.youtube.com/embed/E1xkXZs0cAQ"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </Col>
             </Col>
             <Col xs={12} className="d-flex flex-wrap my-5">
               <StoryBannerImageSmall

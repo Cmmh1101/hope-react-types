@@ -121,8 +121,8 @@ The project integrates solutions to socio-economic and environmental challenges 
     date: "04/20/2021",
     image: "../../../../images/programs/casa-Hogar-el-conde1.jpg",
     icon: "../../../images/couple.png",
-    description: "Elderly Minister",
-    alt: "",
+    description: "Elderly Care Propgram",
+    alt: "Elderly Members of Casa Hogar El Conde with Hope for the nations Volunteers.",
     programImage2: {
         image: "../images/programs/elderly-program.jpg",
         alt: "Elderly Members of Casa Hogar El Conde with Hope for the nations Volunteers."
@@ -153,15 +153,15 @@ The project integrates solutions to socio-economic and environmental challenges 
     description: "Hope Sports Program",
     alt: "",
     programImage2: {
-        image: "../../../images/dylanStory/Dylan-escuela.jpeg",
+        image: "../images/programs/hope-sports-1.jpg",
         alt: "Dylan at School"
     },
     programImage3: {
-        image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+        image: "../images/programs/hope-sports.jpg",
         alt: "Dylan"
     },
     programImage4: {
-        image: "../../../images/dylanStory/Dylan-Baseball.png",
+        image: "../images/programs/sports3.png",
         alt: "Dylan with a baseball trophy"
     },
     featured: "false",

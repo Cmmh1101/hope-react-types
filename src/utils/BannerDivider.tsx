@@ -8,6 +8,7 @@ interface Props {
   bannerContent?: string;
   imgSrc: string;
   altText: string;
+  sectionTitle?: string;
 }
 
 const BannerDivider = ({
@@ -15,6 +16,7 @@ const BannerDivider = ({
   bannerContent,
   imgSrc,
   altText,
+  sectionTitle,
 }: Props) => {
   return (
     <>
@@ -22,6 +24,7 @@ const BannerDivider = ({
         <Row>
           <Col xs={12} className="mx-auto mb-5">
             <MainHeader
+              sectionHighlight={sectionTitle}
               headerText={bannerText}
               subText={bannerContent}
               customClass="banner-divider-principal-text"
