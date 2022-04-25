@@ -30,22 +30,23 @@ const articles = [
   },
   {
     name: "sustainable-community-garden",
-    title: "Sustainable Community Gardens and Raising chicken for Hope",
+    title: "Community Gardens",
     date: "05/03/2021",
-    image: "../../../../images/programs/garden4.png",
+    image: "../images/programs/comunity-garden.jpg",
     icon: "../../../images/carrot-light.png",
-    description: "Sustainable Community Garden",
+    description: "Sustainable Community Gardens and Raising chicken for Hope",
     alt: "",
     programImage2: {
-        image: "../../../images/dylanStory/Dylan-escuela.jpeg",
+        image: "../images/programs/farming4.png",
         alt: "Dylan at School"
     },
     programImage3: {
-        image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+        image: "../images/programs/community-garden-fruit.jpg",
         alt: "Dylan"
     },
     programImage4: {
-        image: "../../../images/dylanStory/Dylan-Baseball.png",
+        
+        image: "../images/programs/community-garden-banner.jpg",
         alt: "Dylan with a baseball trophy"
     },
     featured: "true",
