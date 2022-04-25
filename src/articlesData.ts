@@ -123,7 +123,7 @@ The project integrates solutions to socio-economic and environmental challenges 
     date: "04/20/2021",
     image: "../../../../images/programs/casa-Hogar-el-conde1.jpg",
     icon: "../../../images/couple.png",
-    description: "Elerly Minister",
+    description: "Elderly Minister",
     alt: "",
     programImage2: {
         image: "../../../../images/programs/casa-Hogar-el-conde1.jpg",
@@ -142,6 +142,16 @@ The project integrates solutions to socio-economic and environmental challenges 
     content: [
       `A grandfather is a book written with a lot of pages. The gray hair shows wisdom, and the lines on his face show their journey through life. They are like magic books full of adventure and lots of life lessons. So if you have a grandfather in your life, open that book. I promise you it will be unforgettable and sometimes fun.`,
       `Honor those grandparents who, in one way or another, pass through your life. The Word of God teaches to respect our elders, honor them, listen to them, accompany them, hug them, value their advice, and learn from their stories. “Stand up in the presence of the aged, show respect for the elderly…..Leviticus 19:32.`,
+      `Proverbs 16:31 Gray hair is the crown of the glory.`,
+      `La cabeza canosa es corona de Gloria. Proverbs 16:31.`,
+      `Psalm 71:17-18 O God, You has taught me from my youth; and to this day I declare Your wondrous works. Now also when I am old and gray headed, O God do no forsake me.`,
+      `Salmos
+71:17-18 Oh Dios me enseñaste desde mi juventud, y hasta ahora he manifestado tus maravillas. Aún en la vejez y las canas, oh Dios, no me desampares.
+Isaiah 46:4 Even to your old age and gray hairs, I am he, I am he who will sustain you, I have made you and I will carry you;  I will sustain you and I will rescue you.
+Isaías 46:4 Y hasta la vejez yo mismo, y hasta las canas os soportaré yo; yo hice, yo llevaré, yo soportaré y guardaré.
+`,
+      `Éxodo 20:12 Honra a tu padre y a tu madre, para que tus días se alarguen en la tierra que Jehová tu Dios te da.
+`,
       `We enjoyed seeing their smiles, knowing we can show them love and remind them that God cares for them. Disfrutamos viendo sus sonrisas, sabiendo que podemos mostrarle amor y recordarles que Dios se preocupa por ellos.`,
 `Did you know there are simple ways to help Elderly homes like this, like donating household items such as new bedding? Please help us to help them.
 `,
