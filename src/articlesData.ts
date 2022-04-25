@@ -30,7 +30,7 @@ const articles = [
   },
   {
     name: "sustainable-community-garden",
-    title: "Community Garden",
+    title: "Sustainable Community Gardens and Raising chicken for Hope",
     date: "05/03/2021",
     image: "../../../../images/programs/garden4.png",
     icon: "../../../images/carrot-light.png",
@@ -51,9 +51,9 @@ const articles = [
     featured: "true",
     highligh: `This project will build community-managed organic vegetables and medicinal plant nurseries, giving the community access to a sustainable source of income. After the harvest, food can be shared among gardeners and their families, and the remaining produce will be for sale to the local community and surrounding markets.Each harvest not only provides members of the cooperative with food, but that food is nutritionally diverse.`,
     content: [
-      `Hope for the Nations Urban gardens are intended to support communities to take advantage of the resources found in the same area. These crops allow the communities to supply themselves with fruits, vegetables, at a low cost.`,
-      `These gardens help to provide a job and food to families that are living in underprivileged circumstances. This project works together with raising chickens because chickens benefit the gardening in a natural way, plus it is another food source for the community. We link the urban farm “Landmark” located in the downtown Memphis Tennessee with the farmers, in Venezuela.`,
-      `These knowledgeable farmers and experts in urban gardens. They are collaborating and teaching how to preserve products for a long term, how to dehydrate medicinal plants, and the productions of teas. With their help allows our team to learn more sustainable methods of food production, motivate the people of all ages to take interest in growing food in our communities and share the joy and connection through the Word of God.`,
+      `“I give you every seed-bearing plant on the face of the whole earth and every tree that has fruit with seed in it. They will be yours for food.”`,
+      `Genesis 1:29. "Y dijo Dios: He aquí que os he dado toda planta que da semilla, que está sobre toda la tierra, y todo árbol en que hay fruto y que da semilla; os serán para comer." Genesis 1:29.`,
+      `Hope for the Nations Urban gardens are intended to support communities to take advantage of the resources found in the same area. These crops allow the communities to supply themselves with fruits, vegetables, at a low cost. These gardens help provide a job and food to families living in underprivileged circumstances.`,
     ],
   },
   {
@@ -88,7 +88,7 @@ The project integrates solutions to socio-economic and environmental challenges 
   },
   {
     name: "sustainable-work-program",
-    title: "Lights Of Hope",
+    title: "Light Of Hope",
     date: "04/16/2021",
     image: "../../../../images/programs/entrepreneurship.png",
     icon: "../../../images/entrepreneurship.png",
