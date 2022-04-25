@@ -23,9 +23,7 @@ const articles = [
     highligh:
       "We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.",
     content: [
-      `Hope for the Nations is a non-profit, Christian organization. We count on a ministry of ambassadors that serves children, older people, and families in Venezuela’s most impoverished area. As we help them, we bring the gospel nurturing not only with physical needs but we spiritual needs as well.`,
-      `Our purpose is to transform lives and communities through the Word of God. We created a different sustainable program to allow them to participate and grow as they become independent. Our mission is to serve disadvantaged communities while we show the love of God. We began our work formerly in 2018. In 2020 we started with a series of sustainable programs to bring solutions while bringing God’s Hope.`,
-      `Our organization started catering to the elderly; we provided meals for the homeless and families with a lack of food; we also provided clothes and shoes. In Venezuela’s rural zones, we are developing and expanding sustainable programs such as community gardens, chicken coops, and fish farming to teach, train, and help the community be sustainable.`,
+      `A hand full of Hope are two food programs. The spoon of love’s program: provide weekly food to people in the street and impoverished communities around Venezuela while we evangelize, giving them spiritual bread. A hand of Hope: provide grocery bags to the most vulnerable families in Venezuela. Our goal is to continue spreading the gospel of Jesus Christ while we help them.`,
     ],
   },
   {
@@ -89,22 +87,22 @@ The project integrates solutions to socio-economic and environmental challenges 
   },
   {
     name: "sustainable-work-program",
-    title: "Light Of Hope",
+    title: "Lights Of Hope",
     date: "04/16/2021",
     image: "../../../../images/programs/entrepreneurship.png",
     icon: "../../../images/entrepreneurship.png",
-    description: "Sustainable Work Program",
+    description: "Sustainable Work Program, 'Lights of Hope'",
     alt: "",
     programImage2: {
         image: "../images/programs/05b72859-b164-4083-8d88-1566b273c68b (1).JPG",
         alt: "Dylan at School"
     },
     programImage3: {
-        image: "../images/programs/entrepreneurship.png",
+        image: "../images/programs/lights-of-hope.jpg",
         alt: "Hair salon suplies beneficiary"
     },
     programImage4: {
-        image: "../images/programs/7357eb5a-370d-45ea-b5a2-4ecd6613c64b.JPG",
+        image: "../images/programs/lights-of-hope-1.jpg",
         alt: "Dylan with a baseball trophy"
     },
     featured: "false",
@@ -126,32 +124,21 @@ The project integrates solutions to socio-economic and environmental challenges 
     description: "Elderly Minister",
     alt: "",
     programImage2: {
-        image: "../../../../images/programs/casa-Hogar-el-conde1.jpg",
-        alt: "Dylan at School"
+        image: "../images/programs/elderly-program.jpg",
+        alt: "Elderly Members of Casa Hogar El Conde with Hope for the nations Volunteers."
     },
     programImage3: {
         image: "../../../../images/programs/casa-Hogar-el-conde2.jpg",
-        alt: "Dylan"
+        alt: "Elderly Members of Casa Hogar El Conde with Hope for the nations Volunteers."
     },
     programImage4: {
         image: "../../../../images/programs/casa-hogar-en-caracas.jpg",
-        alt: "Dylan with a baseball trophy"
+        alt: "Elderly members of Hasa Hogar in Caracas Vzla with Hope for the nations Volunteers"
     },
     featured: "true",
-    highligh: `A grandfather is a book written with a lot of pages. The gray hair shows wisdom, and the lines on his face show their journey through life. They are like magic books full of adventure and lots of life lessons.`,
+    highligh: `Honor those grandparents who, in one way or another, pass through your life. The Word of God teaches to respect our elders, honor them, listen to them, accompany them, hug them, value their advice, and learn from their stories. “Stand up in the presence of the aged, show respect for the elderly…..Leviticus 19:32.`,
     content: [
-      `A grandfather is a book written with a lot of pages. The gray hair shows wisdom, and the lines on his face show their journey through life. They are like magic books full of adventure and lots of life lessons. So if you have a grandfather in your life, open that book. I promise you it will be unforgettable and sometimes fun.`,
-      `Honor those grandparents who, in one way or another, pass through your life. The Word of God teaches to respect our elders, honor them, listen to them, accompany them, hug them, value their advice, and learn from their stories. “Stand up in the presence of the aged, show respect for the elderly…..Leviticus 19:32.`,
-      `Proverbs 16:31 Gray hair is the crown of the glory.`,
-      `La cabeza canosa es corona de Gloria. Proverbs 16:31.`,
-      `Psalm 71:17-18 O God, You has taught me from my youth; and to this day I declare Your wondrous works. Now also when I am old and gray headed, O God do no forsake me.`,
-      `Salmos
-71:17-18 Oh Dios me enseñaste desde mi juventud, y hasta ahora he manifestado tus maravillas. Aún en la vejez y las canas, oh Dios, no me desampares.
-Isaiah 46:4 Even to your old age and gray hairs, I am he, I am he who will sustain you, I have made you and I will carry you;  I will sustain you and I will rescue you.
-Isaías 46:4 Y hasta la vejez yo mismo, y hasta las canas os soportaré yo; yo hice, yo llevaré, yo soportaré y guardaré.
-`,
-      `Éxodo 20:12 Honra a tu padre y a tu madre, para que tus días se alarguen en la tierra que Jehová tu Dios te da.
-`,
+      
       `We enjoyed seeing their smiles, knowing we can show them love and remind them that God cares for them. Disfrutamos viendo sus sonrisas, sabiendo que podemos mostrarle amor y recordarles que Dios se preocupa por ellos.`,
 `Did you know there are simple ways to help Elderly homes like this, like donating household items such as new bedding? Please help us to help them.
 `,
@@ -187,6 +174,36 @@ Isaías 46:4 Y hasta la vejez yo mismo, y hasta las canas os soportaré yo; yo h
       `With an integrated approach, we will provide training where these families can acquire practical life skills rooted in sustainability principles, environmental stewardship, and biblical teachings while engaging in the self-awareness and personal transformation that will support their well-being. It will help them empower themselves and take leadership roles within their local communities.`,
     ],
   },
+  // {
+  //   name: "hope-sports-program",
+  //   title: "Hope Sports",
+  //   date: "04/16/2021",
+  //   image: "../../../../images/programs/sports3.png",
+  //   icon: "../../../images/sports.png",
+  //   description: "Hope Sports Program",
+  //   alt: "",
+  //   programImage2: {
+  //       image: "../../../images/dylanStory/Dylan-escuela.jpeg",
+  //       alt: "Dylan at School"
+  //   },
+  //   programImage3: {
+  //       image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+  //       alt: "Dylan"
+  //   },
+  //   programImage4: {
+  //       image: "../../../images/dylanStory/Dylan-Baseball.png",
+  //       alt: "Dylan with a baseball trophy"
+  //   },
+  //   featured: "false",
+  //   highligh: `We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.`,
+  //   content: [
+  //     `Hope for the Nations is a non-profit, Christian organization. We count on a ministry of ambassadors that serves children, older people, and families in Venezuela’s most impoverished area. As we help them, we bring the gospel nurturing not only with physical needs but we spiritual needs as well.`,
+
+  //     `Our purpose is to transform lives and communities through the Word of God. We created a different sustainable program to allow them to participate and grow as they become independent. Our mission is to serve disadvantaged communities while we show the love of God. We began our work formerly in 2018. In 2020 we started with a series of sustainable programs to bring solutions while bringing God’s Hope.`,
+  //     `Our organization started catering to the elderly; we provided meals for the homeless and families with a lack of food; we also provided clothes and shoes. In Venezuela’s rural zones, we are developing and expanding sustainable programs such as community gardens, chicken coops, and fish farming to teach, train, and help the community be sustainable.`,
+  //     `With an integrated approach, we will provide training where these families can acquire practical life skills rooted in sustainability principles, environmental stewardship, and biblical teachings while engaging in the self-awareness and personal transformation that will support their well-being. It will help them empower themselves and take leadership roles within their local communities.`,
+  //   ],
+  // },
 ];
 
 export default articles;
