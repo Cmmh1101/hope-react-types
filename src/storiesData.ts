@@ -22,9 +22,7 @@ const articles = [
         image: "../../../images/storiesImgs/Dylan-Baseball.png",
         alt: "Dylan with a baseball trophy"
     },
-    
     alt: "",
-    
     featured: "true",
     highligh:
       "Your gift will help us to continue providing basics needs like water, nutritious food, and shelter. Esperanza para las Naciones  ensures that children get their necessities, access to education, books, shoes, and clothing.",
