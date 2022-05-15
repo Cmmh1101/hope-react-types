@@ -4,19 +4,26 @@ import BibleVerses from "../../../utils/BibleVerses";
 
 const DonateBanner = () => {
   return (
-    <Container fluid className="p-5 donate-section">
+    <Container
+      fluid
+      className="p-5 donate-section"
+      // style={{
+      //   backgroundImage: "url(../../../images/bibleOpen.jpg)",
+
+      //   backgroundSize: "auto",
+      //   backgroundPosition: "center bottom",
+      //   backgroundRepeat: "no-repeat",
+      //   height: 300,
+      // }}
+    >
       <Row>
         <Col xs={12} className="d-flex justify-content-center flex-wrap">
           <Col
             xs={12}
             md={8}
             xl={4}
-            className="d-flex justify-content-center align-items-center"
+            className="d-flex justify-content-center align-items-center donate-verse"
           >
-            {/* <p className="text-center text-md-end text-right mb-xs-4 mb-md-0">
-              We would love for you to consider partnering with us to reach and
-              empower the people in Venezuela
-            </p> */}
             <BibleVerses />
           </Col>
           <Col

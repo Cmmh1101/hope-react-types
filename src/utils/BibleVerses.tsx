@@ -1,28 +1,26 @@
-import React from "react";
+import { Col } from "reactstrap";
 import verses from "../../src/bibleVerses";
 
-// interface Verse {
-//   reference?: string;
-//   verse?: string;
-// }
-
 const BibleVerses = () => {
-  //   const [newVerse, setNewVerse] = useState<Verse>();
   const totalVerses = verses.length;
   const activeVerses = verses[Math.floor(Math.random() * totalVerses)];
   console.log(activeVerses);
 
-  //   useEffect(() => {
-  //     const totalVerses = verses.length;
-  //     const activeVerses = verses[Math.floor(Math.random() * totalVerses)];
-  //     setNewVerse(activeVerses);
-  //   }, []);
-
   return (
-    <div>
-      <p>{activeVerses.verse}</p>
-      <span>{activeVerses.reference}</span>
-    </div>
+    <Col xs={12} className="donate-verse-img">
+      <Col xs={2}>
+        <img
+          src="../../images/bibleSun.png"
+          alt="bible"
+          className="bible-image"
+        />
+      </Col>
+
+      <Col xs={10} className="verse">
+        <p>{activeVerses.verse}</p>
+        <span>{activeVerses.reference}</span>
+      </Col>
+    </Col>
   );
 };
 
