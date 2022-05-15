@@ -1,19 +1,27 @@
 import React from "react";
 import verses from "../../src/bibleVerses";
 
-interface Props {}
+// interface Verse {
+//   reference?: string;
+//   verse?: string;
+// }
 
-const BibleVerses = (props: Props) => {
+const BibleVerses = () => {
+  //   const [newVerse, setNewVerse] = useState<Verse>();
+  const totalVerses = verses.length;
+  const activeVerses = verses[Math.floor(Math.random() * totalVerses)];
+  console.log(activeVerses);
+
+  //   useEffect(() => {
+  //     const totalVerses = verses.length;
+  //     const activeVerses = verses[Math.floor(Math.random() * totalVerses)];
+  //     setNewVerse(activeVerses);
+  //   }, []);
+
   return (
     <div>
-      {verses.map((ver, i) => {
-        return (
-          <div key={i}>
-            <p>{ver.verse}</p>
-            <span>{ver.reference}</span>
-          </div>
-        );
-      })}
+      <p>{activeVerses.verse}</p>
+      <span>{activeVerses.reference}</span>
     </div>
   );
 };
