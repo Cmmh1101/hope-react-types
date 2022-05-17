@@ -8,17 +8,20 @@ const BibleVerses = () => {
 
   return (
     <Col xs={12} md={10} className="donate-verse-img mb-5 mb-md-0">
-      <Col xs={2}>
+      <Col xs={12} lg={10} className="verse order-lg-2">
+        <p>{activeVerses.verse}</p>
+        <span>{activeVerses.reference}</span>
+      </Col>
+      <Col
+        xs={12}
+        lg={2}
+        className="d-flex order-lg-1 align-items-center justify-content-center"
+      >
         <img
           src="../../images/bibleSun.png"
           alt="bible"
           className="bible-image"
         />
-      </Col>
-
-      <Col xs={10} className="verse">
-        <p>{activeVerses.verse}</p>
-        <span>{activeVerses.reference}</span>
       </Col>
     </Col>
   );
