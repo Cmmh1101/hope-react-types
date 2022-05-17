@@ -17,23 +17,30 @@ const DonateBanner = () => {
       // }}
     >
       <Row>
-        <Col xs={12} className="d-flex justify-content-center flex-wrap">
-          <Col
+        <Col
+          xs={12}
+          className="d-flex justify-content-center align-items-center flex-wrap"
+        >
+          <BibleVerses />
+          <Button color="warning" className="">
+            DONATE
+          </Button>
+          {/* <Col
             xs={12}
             md={8}
             xl={4}
             className="d-flex justify-content-center align-items-center donate-verse"
           >
             <BibleVerses />
-          </Col>
-          <Col
+          </Col> */}
+          {/* <Col
             xs={12}
             md={4}
             xl={4}
             className="d-flex justify-content-center align-items-center"
           >
             <Button className="btn-cta">DONATE</Button>
-          </Col>
+          </Col> */}
         </Col>
       </Row>
     </Container>

@@ -7,7 +7,7 @@ const BibleVerses = () => {
   console.log(activeVerses);
 
   return (
-    <Col xs={12} className="donate-verse-img">
+    <Col xs={12} md={10} className="donate-verse-img mb-5 mb-md-0">
       <Col xs={2}>
         <img
           src="../../images/bibleSun.png"
