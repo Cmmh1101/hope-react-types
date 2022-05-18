@@ -21,7 +21,8 @@ const StoryPage = ({ match }: any) => {
     <>
       <div className="banner-divider inner-page-hero mb-5">
         <BannerDivider
-          className="banner-content"
+          className="banner-content sub-title"
+          sectionTitle="Stories Of Hope"
           bannerText={article.title}
           imgSrc={article.image}
           altText={article.alt}

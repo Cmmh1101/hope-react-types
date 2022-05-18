@@ -166,14 +166,14 @@ footer .follow-icons:hover {
 }
 .banner-divider h2 {
   text-shadow: 2px 5px var(--blue);
+  font-size: 100px;
 }
 .banner-divider-principal-text {
   color: #ffffff;
   z-index: 50;
 }
 .banner-divider-principal-text h2 {
-  /* font-family: "Crafty Girls"; */
-  font-size: 4rem;
+  font-size: 100px;
 }
 
 .banner-divider-principal-text p {
@@ -226,7 +226,7 @@ footer .follow-icons:hover {
   background-color: rgba(111, 112, 112, 0.472);
 }
 .inner-page-hero h2 {
-  font-size: 45px;
+  font-size: 100px;
   color: var(--dark-blue);
   margin-top: -40px;
   text-shadow: none;
@@ -234,6 +234,15 @@ footer .follow-icons:hover {
 }
 .inner-page-hero span {
   color: rgba(255, 255, 255, 0.616);
+  font-size: 100px;
+  letter-spacing: 10px;
+  font-weight: 900;
+}
+
+.sub-title {
+  font-size: 45px;
+}
+.big-title {
   font-size: 100px;
   letter-spacing: 10px;
   font-weight: 900;
@@ -318,7 +327,7 @@ footer .follow-icons:hover {
   color: var(--white);
   margin-top: 6rem;
   height: auto;
-  min-height: 300px;
+  min-height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
