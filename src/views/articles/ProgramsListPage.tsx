@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import BannerDivider from "../../utils/BannerDivider";
-import DonateInterPages from "../../utils/DonateInterPages";
 import FollowUs from "../../utils/FollowUs";
 import MainHeader from "../../utils/MainHeader";
+import DonateBanner from "../homepage/components/DonateBanner";
 import ProgramsList from "./components/ProgramsList";
 
 const ProgramsListPage = () => {
@@ -24,7 +24,7 @@ const ProgramsListPage = () => {
           </Col>
         </Row>
       </Container>
-      <DonateInterPages />
+      <DonateBanner />
       <FollowUs />
     </div>
   );

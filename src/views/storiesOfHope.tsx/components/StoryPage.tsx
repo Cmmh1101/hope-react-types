@@ -2,11 +2,11 @@ import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import storiesData from "../../../storiesData";
 import BannerDivider from "../../../utils/BannerDivider";
-import DonateInterPages from "../../../utils/DonateInterPages";
 import FollowUs from "../../../utils/FollowUs";
 import HighlightMessage from "../../../utils/HighlightMessage";
 import StoryBannerImageSmall from "../../../utils/StoryBannerImageSmall";
 import NotFoundPage from "../../404page";
+import DonateBanner from "../../homepage/components/DonateBanner";
 import StoriesList from "./StoriesList";
 
 const StoryPage = ({ match }: any) => {
@@ -82,7 +82,7 @@ const StoryPage = ({ match }: any) => {
           </Col>
         </Row>
       </Container>
-      <DonateInterPages />
+      <DonateBanner />
       <FollowUs />
     </>
   );

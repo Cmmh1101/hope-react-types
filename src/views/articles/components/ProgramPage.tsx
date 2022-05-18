@@ -2,11 +2,11 @@ import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import articleData from "../../../articlesData";
 import BannerDivider from "../../../utils/BannerDivider";
-import DonateInterPages from "../../../utils/DonateInterPages";
 import FollowUs from "../../../utils/FollowUs";
 import HighlightMessage from "../../../utils/HighlightMessage";
 import StoryBannerImageSmall from "../../../utils/StoryBannerImageSmall";
 import NotFoundPage from "../../404page";
+import DonateBanner from "../../homepage/components/DonateBanner";
 import ProgramsList from "./ProgramsList";
 
 const ProgramPage = ({ match }: any) => {
@@ -74,7 +74,7 @@ const ProgramPage = ({ match }: any) => {
           </Col>
         </Row>
       </Container>
-      <DonateInterPages />
+      <DonateBanner />
       <FollowUs />
     </>
   );
