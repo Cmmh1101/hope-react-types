@@ -4,7 +4,7 @@ import BannerDivider from "../../utils/BannerDivider";
 // import DonateInterPages from "../../utils/DonateInterPages";
 import FollowUs from "../../utils/FollowUs";
 import MainHeader from "../../utils/MainHeader";
-import DonateBanner from "../homepage/components/DonateBanner";
+import DonateBanner from "../../utils/DonateBanner";
 import StoriesList from "./components/StoriesList";
 
 const StoriesListPage = () => {

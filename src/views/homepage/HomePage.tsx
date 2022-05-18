@@ -4,7 +4,7 @@ import BannerDivider from "../../utils/BannerDivider";
 import MainHeader from "../../utils/MainHeader";
 import ProgramsList from "../articles/components/ProgramsList";
 import StoriesList from "../storiesOfHope.tsx/components/StoriesList";
-import DonateBanner from "./components/DonateBanner";
+import DonateBanner from "../../utils/DonateBanner";
 import Introduction from "./components/Introduction";
 
 const HomePage = () => {

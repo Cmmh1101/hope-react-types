@@ -3,7 +3,7 @@ import { Col, Container, Row } from "reactstrap";
 import BannerDivider from "../../utils/BannerDivider";
 import FollowUs from "../../utils/FollowUs";
 import MainHeader from "../../utils/MainHeader";
-import DonateBanner from "../homepage/components/DonateBanner";
+import DonateBanner from "../../utils/DonateBanner";
 import ProgramsList from "./components/ProgramsList";
 
 const ProgramsListPage = () => {

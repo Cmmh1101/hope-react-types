@@ -322,25 +322,23 @@ footer .follow-icons:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgb(26, 189, 227);
+  /* background: rgb(26, 189, 227);
   background: linear-gradient(
     350deg,
     rgba(26, 189, 227, 0.9612219887955182) 49%,
     rgba(27, 134, 242, 1) 100%
-  );
+  ); */
+  /* background-image: url("sea.jpg"); */
 }
-/* .donate-internal-sec {
-  background-color: #cceaf7;
-  color: var(--dark-blue);
-  margin: 6rem 0 0;
-  padding: 6rem 0;
-  background: rgb(26, 189, 227);
-  background: linear-gradient(
-    350deg,
-    rgba(26, 189, 227, 0.9612219887955182) 49%,
-    rgba(27, 134, 242, 1) 100%
-  );
-} */
+
+.donate-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  background-color: rgba(51, 50, 50, 0.585);
+  padding: 30px;
+}
 
 .donate-verse-img {
   display: flex;

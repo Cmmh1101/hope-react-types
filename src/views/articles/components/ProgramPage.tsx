@@ -6,7 +6,7 @@ import FollowUs from "../../../utils/FollowUs";
 import HighlightMessage from "../../../utils/HighlightMessage";
 import StoryBannerImageSmall from "../../../utils/StoryBannerImageSmall";
 import NotFoundPage from "../../404page";
-import DonateBanner from "../../homepage/components/DonateBanner";
+import DonateBanner from "../../../utils/DonateBanner";
 import ProgramsList from "./ProgramsList";
 
 const ProgramPage = ({ match }: any) => {

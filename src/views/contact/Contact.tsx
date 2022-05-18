@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import BannerDivider from "../../utils/BannerDivider";
-import DonateInterPages from "../../utils/DonateInterPages";
+import DonateBanner from "../../utils/DonateBanner";
 import FollowUs from "../../utils/FollowUs";
 import MainHeader from "../../utils/MainHeader";
 import GoogleMap from "./components/GoogleMap";
@@ -49,7 +49,7 @@ const Contact = (props: Props) => {
           </Col>
         </Row>
       </Container>
-      <DonateInterPages />
+      <DonateBanner />
       <FollowUs />
     </>
   );
