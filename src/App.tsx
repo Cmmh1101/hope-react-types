@@ -6,6 +6,7 @@ import Layout from "./layout/Layout";
 import ScrollToTop from "./ScrollToTop";
 import "@fontsource/crafty-girls";
 import "@fontsource/poppins";
+import "@fontsource/grape-nuts";
 
 function App() {
   return (
