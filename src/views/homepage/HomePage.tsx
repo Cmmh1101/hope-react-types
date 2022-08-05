@@ -6,18 +6,25 @@ import ProgramsList from "../articles/components/ProgramsList";
 import StoriesList from "../storiesOfHope.tsx/components/StoriesList";
 import DonateBanner from "../../utils/DonateBanner";
 import Introduction from "./components/Introduction";
+import Header from "./components/Header";
 
 const HomePage = () => {
   return (
     <>
+      <Header
+        title="HOPE FOR THE NATIONS"
+        description="Blessing our communities with love and hope."
+        background="../../../images/hero-image.jpg"
+        className="jumbo-header"
+      />
       <div className="main-banner">
-        <BannerDivider
+        {/* <BannerDivider
           className="banner-content"
           bannerText="HOPE FOR THE NATIONS"
           bannerContent="Blessing our communities with love and hope."
           imgSrc="../../../images/hero-image.jpg"
           altText="Boy seated on the sidewalk"
-        />
+        /> */}
       </div>
       <Container>
         <Introduction />

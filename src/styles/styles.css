@@ -99,6 +99,16 @@ footer .follow-icons:hover {
   color: var(--dark-blue);
 }
 
+/* header jumbo */
+
+.jumbo-header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 125px;
+  height: 60vh;
+}
+
 /* headers */
 .main-header {
   text-align: center;
