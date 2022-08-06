@@ -17,7 +17,11 @@ const DonateBanner = () => {
       <Row>
         <Col xs={12} className="donate-banner">
           <BibleVerses />
-          <Button color="warning" className="">
+          <Button
+            href="https://www.paypal.com/donate?hosted_button_id=JWBZEQHW76WC4"
+            target="_blank"
+            className="btn-cta"
+          >
             DONATE
           </Button>
         </Col>

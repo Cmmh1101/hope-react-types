@@ -107,6 +107,43 @@ footer .follow-icons:hover {
   background-size: cover;
   margin-top: 125px;
   height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 500px;
+  position: relative;
+  z-index: 1;
+}
+
+.banner {
+  height: 40vh;
+  background-position: top center;
+}
+
+.banner .header-container {
+  z-index: 50;
+}
+
+.banner-overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 2;
+background-color: rgba(28, 32, 32, 0.726);
+}
+
+.banner h3 {
+  font-size: 100px!important;
+  font-weight: bolder;
+  color: var(--lighter-blue);
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+}
+
+.banner p {
+  color: var(--white);
 }
 
 /* headers */
@@ -365,6 +402,13 @@ footer .follow-icons:hover {
 }
 .verse span {
   font-size: 12px;
+}
+
+.donate-banner .btn-cta {
+  transition: var(--transition);
+}
+.donate-banner .btn-cta:hover {
+  transform: scale(1.2);
 }
 
 /* .donate-verse-img {
