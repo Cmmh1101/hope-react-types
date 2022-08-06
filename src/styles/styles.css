@@ -135,7 +135,6 @@ z-index: 50;
 }
 .jumbo-header p {
   font-size: 1.5rem;
-  
 }
 
 .banner {
@@ -438,9 +437,18 @@ background-color: rgba(28, 32, 32, 0.726);
 
 .donate-banner .btn-cta {
   transition: var(--transition);
+  background-color: #28a745!important;
+  outline: none;
+  color: var(--white)!important;
 }
 .donate-banner .btn-cta:hover {
-  transform: scale(1.2);
+  background-color: #1f8838 !important;
+  transform: scale(1.1);
+
+}
+.donate-banner .btn-cta:focus {
+  outline: none;
+
 }
 
 /* .donate-verse-img {

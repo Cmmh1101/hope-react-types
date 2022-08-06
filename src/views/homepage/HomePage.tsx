@@ -18,15 +18,6 @@ const HomePage = () => {
         className="jumbo-header"
         overlay={true}
       />
-      {/* <div className="main-banner">
-        <BannerDivider
-          className="banner-content"
-          bannerText="HOPE FOR THE NATIONS"
-          bannerContent="Blessing our communities with love and hope."
-          imgSrc="../../../images/hero-image.jpg"
-          altText="Boy seated on the sidewalk"
-        />
-      </div> */}
       <Container>
         <Introduction />
       </Container>
@@ -38,13 +29,6 @@ const HomePage = () => {
           className="jumbo-header banner"
           overlay={true}
         />
-        {/* <BannerDivider
-          className="banner-content"
-          bannerText="What we do"
-          bannerContent="All of our programs are open to communities in need from the children to the elder members. We beleive we can make a difference in the lives of children, parents, grandparents and families, to break the circle of poverty in our community."
-          imgSrc="https://image.shutterstock.com/image-photo/muzaffarpur-india-may-10-2017-260nw-674314204.jpg"
-          altText="kids receiving lunch"
-        /> */}
       </div>
       <Container className="pt-5">
         <MainHeader headerText="Our programs" />
@@ -58,13 +42,6 @@ const HomePage = () => {
           className="jumbo-header banner"
           overlay={true}
         />
-        {/* <BannerDivider
-          className="banner-content"
-          bannerText="Who we serve"
-          bannerContent="All of our programs are open to communities in need from the children to the elder members. We be;eive we can make a difference in the lives of children, parents, grandparents and families, to break the circle of poverty in our community."
-          imgSrc="https://image.shutterstock.com/image-photo/muzaffarpur-india-may-10-2017-260nw-674314204.jpg"
-          altText="kids receiving lunch"
-        /> */}
       </div>
       <Container className="pt-5">
         <MainHeader headerText="Stories of Hope" />
