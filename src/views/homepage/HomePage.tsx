@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "reactstrap";
-import BannerDivider from "../../utils/BannerDivider";
+// import BannerDivider from "../../utils/BannerDivider";
 import MainHeader from "../../utils/MainHeader";
 import ProgramsList from "../articles/components/ProgramsList";
 import StoriesList from "../storiesOfHope.tsx/components/StoriesList";
@@ -16,7 +16,7 @@ const HomePage = () => {
         description="Blessing our communities with love and hope."
         background="../../../images/hero-image.jpg"
         className="jumbo-header"
-        overlay={false}
+        overlay={true}
       />
       {/* <div className="main-banner">
         <BannerDivider
