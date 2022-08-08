@@ -6,17 +6,17 @@ import FollowUs from "../../utils/FollowUs";
 import MainHeader from "../../utils/MainHeader";
 import DonateBanner from "../../utils/DonateBanner";
 import StoriesList from "./components/StoriesList";
+import Header from "../../utils/Header";
 
 const StoriesListPage = () => {
   return (
-    <div>
-      <div className="banner-divider inner-page-hero">
-        <BannerDivider
-          bannerText="Stories Of Hope"
-          imgSrc="../../../images/programs/light-of-hope-hair-style.jpg"
-          altText="team huddle"
-        />
-      </div>
+    <>
+      <Header
+        bannerTitle="Stories Of Hope"
+        background="../../../images/programs/light-of-hope-hair-style.jpg"
+        className="jumbo-header text-center"
+        overlay={true}
+      />
       <Container>
         <Row className="mt-5">
           <Col xs={12} className="mt-5 mx-auto">
@@ -27,7 +27,7 @@ const StoriesListPage = () => {
       </Container>
       <DonateBanner />
       <FollowUs />
-    </div>
+    </>
   );
 };
 

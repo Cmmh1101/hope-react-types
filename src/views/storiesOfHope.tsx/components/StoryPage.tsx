@@ -8,6 +8,7 @@ import StoryBannerImageSmall from "../../../utils/StoryBannerImageSmall";
 import NotFoundPage from "../../404page";
 import DonateBanner from "../../../utils/DonateBanner";
 import StoriesList from "./StoriesList";
+import Header from "../../../utils/Header";
 
 const StoryPage = ({ match }: any) => {
   const name = match.params.name;
@@ -19,15 +20,13 @@ const StoryPage = ({ match }: any) => {
 
   return (
     <>
-      <div className="banner-divider inner-page-hero mb-5">
-        <BannerDivider
-          className="banner-content sub-title"
-          sectionTitle="Stories Of Hope"
-          bannerText={article.title}
-          imgSrc={article.image}
-          altText={article.alt}
-        />
-      </div>
+      <Header
+        titleWIthEffect="Hope"
+        bannerTitle={article.title}
+        background={article.image}
+        className="jumbo-header text-center"
+        overlay={true}
+      />
 
       <Container>
         <Row>
