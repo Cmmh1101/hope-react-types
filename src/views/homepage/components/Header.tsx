@@ -5,7 +5,7 @@ interface Props {
   background: string;
   title?: string;
   titleWIthEffect?: string;
-  description: string;
+  description?: string;
   buttonText?: string;
   className?: string;
   bannerTitle?: string;

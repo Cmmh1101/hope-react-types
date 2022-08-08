@@ -5,17 +5,17 @@ import FollowUs from "../../utils/FollowUs";
 import MainHeader from "../../utils/MainHeader";
 import DonateBanner from "../../utils/DonateBanner";
 import ProgramsList from "./components/ProgramsList";
+import Header from "../homepage/components/Header";
 
 const ProgramsListPage = () => {
   return (
-    <div>
-      <div className="banner-divider inner-page-hero">
-        <BannerDivider
-          bannerText="Our Programs"
-          imgSrc="../../../images/programs/garden4.png"
-          altText="team huddle"
-        />
-      </div>
+    <>
+      <Header
+        bannerTitle="Our Programs"
+        background="../../../images/programs/hunger5.png"
+        className="jumbo-header banner text-center"
+        overlay={true}
+      />
       <Container>
         <Row className="mt-5">
           <Col xs={12} md={10} className="mt-5 mx-auto">
@@ -26,7 +26,7 @@ const ProgramsListPage = () => {
       </Container>
       <DonateBanner />
       <FollowUs />
-    </div>
+    </>
   );
 };
 
