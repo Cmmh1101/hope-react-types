@@ -3,6 +3,7 @@ import { Col, Container, Row } from "reactstrap";
 import BannerDivider from "../../utils/BannerDivider";
 import DonateBanner from "../../utils/DonateBanner";
 import FollowUs from "../../utils/FollowUs";
+import Header from "../../utils/Header";
 import MainHeader from "../../utils/MainHeader";
 import GoogleMap from "./components/GoogleMap";
 
@@ -11,15 +12,12 @@ interface Props {}
 const Contact = (props: Props) => {
   return (
     <>
-      <div className="banner-divider inner-page-hero mb-5">
-        <BannerDivider
-          className="banner-content"
-          bannerText="CONTACT US"
-          bannerContent=""
-          imgSrc="../../../images/voluntarios.jpg"
-          altText="Hope For The Nations Volunteers - Venezuela"
-        />
-      </div>
+      <Header
+        bannerTitle="contact us"
+        background="../../../images/voluntarios.jpg"
+        className="jumbo-header text-center"
+        overlay={true}
+      />
       <Container>
         <Row>
           <MainHeader headerText="Contact Details" />

@@ -3,6 +3,7 @@ import { Col, Container, Row } from "reactstrap";
 import BannerDivider from "../../utils/BannerDivider";
 import DonateBanner from "../../utils/DonateBanner";
 import FollowUs from "../../utils/FollowUs";
+import Header from "../../utils/Header";
 import MainHeader from "../../utils/MainHeader";
 import TeamMemberCard from "./components/TeamMemberCard";
 
@@ -58,15 +59,13 @@ const Leadership = () => {
 
   return (
     <>
-      <div className="banner-divider inner-page-hero mb-5">
-        <BannerDivider
-          className="banner-content"
-          bannerText="LEADERSHIP"
-          bannerContent="Who We Are"
-          imgSrc="../../../../images/voluntarios.jpg"
-          altText="Hope For The Nations Volunteers - Venezuela"
-        />
-      </div>
+      <Header
+        titleWIthEffect="Who we are"
+        bannerTitle="leadership"
+        background="../../../../images/voluntarios.jpg"
+        className="jumbo-header text-center"
+        overlay={true}
+      />
       <Container>
         <Row className="d-flex justify-content-center align-items-center mb-5">
           <Col xs={12}>
