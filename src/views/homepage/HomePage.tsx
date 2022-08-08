@@ -6,7 +6,7 @@ import ProgramsList from "../articles/components/ProgramsList";
 import StoriesList from "../storiesOfHope.tsx/components/StoriesList";
 import DonateBanner from "../../utils/DonateBanner";
 import Introduction from "./components/Introduction";
-import Header from "./components/Header";
+import Header from "../../utils/Header";
 
 const HomePage = () => {
   return (

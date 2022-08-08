@@ -8,6 +8,7 @@ import StoryBannerImageSmall from "../../../utils/StoryBannerImageSmall";
 import NotFoundPage from "../../404page";
 import DonateBanner from "../../../utils/DonateBanner";
 import ProgramsList from "./ProgramsList";
+import Header from "../../../utils/Header";
 
 const ProgramPage = ({ match }: any) => {
   const name = match.params.name;
@@ -19,15 +20,14 @@ const ProgramPage = ({ match }: any) => {
 
   return (
     <>
-      <header className="banner-divider inner-page-hero">
-        <BannerDivider
-          className="banner-content"
-          sectionTitle="Programs"
-          bannerText={article.title}
-          imgSrc={article.image}
-          altText={article.alt}
-        />
-      </header>
+      <Header
+        titleWIthEffect="Programs"
+        bannerTitle={article.title}
+        background={article.image}
+        className="jumbo-header text-center"
+        overlay={true}
+      />
+
       <Container>
         <Row>
           <Col xs={12} className="mx-auto">

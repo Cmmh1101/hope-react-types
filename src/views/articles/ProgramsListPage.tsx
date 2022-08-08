@@ -5,7 +5,7 @@ import FollowUs from "../../utils/FollowUs";
 import MainHeader from "../../utils/MainHeader";
 import DonateBanner from "../../utils/DonateBanner";
 import ProgramsList from "./components/ProgramsList";
-import Header from "../homepage/components/Header";
+import Header from "../../utils/Header";
 
 const ProgramsListPage = () => {
   return (
@@ -13,7 +13,7 @@ const ProgramsListPage = () => {
       <Header
         bannerTitle="Our Programs"
         background="../../../images/programs/hunger5.png"
-        className="jumbo-header banner text-center"
+        className="jumbo-header text-center"
         overlay={true}
       />
       <Container>
