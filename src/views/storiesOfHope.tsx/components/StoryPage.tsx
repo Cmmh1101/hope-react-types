@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import storiesData from "../../../storiesData";
-import BannerDivider from "../../../utils/BannerDivider";
 import FollowUs from "../../../utils/FollowUs";
 import HighlightMessage from "../../../utils/HighlightMessage";
 import StoryBannerImageSmall from "../../../utils/StoryBannerImageSmall";
@@ -27,7 +26,6 @@ const StoryPage = ({ match }: any) => {
         className="jumbo-header text-center"
         overlay={true}
       />
-
       <Container>
         <Row>
           <Col xs={12} className="mx-auto p-0">

@@ -1,5 +1,4 @@
 import React from "react";
-
 import articlesData from "../../../articlesData";
 import { Col, Row } from "reactstrap";
 import { Link } from "react-router-dom";

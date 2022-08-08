@@ -149,6 +149,7 @@ z-index: 50;
   height: auto;
   min-height: 50vh;
   background-position: top center;
+  width: 100%;
 }
 
 .hero-overlay {

@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import BannerDivider from "../../utils/BannerDivider";
 import DonateBanner from "../../utils/DonateBanner";
 import FollowUs from "../../utils/FollowUs";
 import Header from "../../utils/Header";
@@ -98,13 +97,18 @@ const Leadership = () => {
         </Row>
       </Container>
 
-      <div className="banner-divider">
+      {/* <div className="banner-divider">
         <BannerDivider
           bannerText=""
           imgSrc="../../../../../../images/voluntarios.jpg"
           altText="Programs Volunteers"
         />
-      </div>
+        <Header
+          background="../../../../images/voluntarios.jpg"
+          className="banner"
+          overlay={true}
+        />
+      </div> */}
 
       <Container>
         <Row className="mt-5">

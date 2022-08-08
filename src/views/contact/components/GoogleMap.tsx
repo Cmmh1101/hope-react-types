@@ -1,8 +1,6 @@
 import React from "react";
 
-interface Props {}
-
-const GoogleMap = (props: Props) => {
+const GoogleMap = () => {
   return (
     <div>
       <iframe

@@ -1,15 +1,12 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import BannerDivider from "../../utils/BannerDivider";
 import DonateBanner from "../../utils/DonateBanner";
 import FollowUs from "../../utils/FollowUs";
 import Header from "../../utils/Header";
 import MainHeader from "../../utils/MainHeader";
 import GoogleMap from "./components/GoogleMap";
 
-interface Props {}
-
-const Contact = (props: Props) => {
+const Contact = () => {
   return (
     <>
       <Header

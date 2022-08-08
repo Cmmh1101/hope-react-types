@@ -1,7 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import BannerDivider from "../../utils/BannerDivider";
-// import DonateInterPages from "../../utils/DonateInterPages";
 import FollowUs from "../../utils/FollowUs";
 import MainHeader from "../../utils/MainHeader";
 import DonateBanner from "../../utils/DonateBanner";

@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import articleData from "../../../articlesData";
-import BannerDivider from "../../../utils/BannerDivider";
 import FollowUs from "../../../utils/FollowUs";
 import HighlightMessage from "../../../utils/HighlightMessage";
 import StoryBannerImageSmall from "../../../utils/StoryBannerImageSmall";
