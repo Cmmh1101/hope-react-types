@@ -225,10 +225,7 @@ margin-top: -90px;
   line-height: 50px;
 }
 
-/* .list-sec h3 {
-} */
-
-/* banners & heros */
+/* =========================== banners & heros =========================== */
 
 .main-banner {
   display: flex;
@@ -344,7 +341,6 @@ margin-top: -90px;
 
 .programs-section {
   height: auto;
-  /* margin: 100px 0!important; */
 }
 
 .programs-list {
@@ -352,7 +348,6 @@ margin-top: -90px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* margin: 15px 0; */
 }
 .programs-list h4 {
   color: var(--dark-blue);
@@ -368,10 +363,9 @@ margin-top: -90px;
 
 .span-highlight {
   font-size: 26px;
-  /* font-family: "Crafty Girls"; */
 }
 
-/* stories */
+/* =========================== stories =========================== */
 
 
 .stories-list-img-containter {
@@ -397,7 +391,7 @@ margin-top: -90px;
   transform: scale(1.03);
 }
 
-/* story page */
+/* =========================== story page =========================== */
 
 .custom-shadow {
   -webkit-box-shadow: 0px 0px 28px -1px rgba(0, 0, 0, 0.33);
@@ -414,7 +408,7 @@ margin-top: -90px;
   height: 100%;
 }
 
-/* donate */
+/* =========================== donate =========================== */
 .donate-section {
   background-color: var(--dark-blue);
   color: var(--white);
@@ -460,7 +454,7 @@ margin-top: -90px;
 
 }
 
-/* btn call to action */
+/* =========================== btn call to action ====================== */
 
 .btn-cta {
   background-color: var(--lighter-blue) !important;
@@ -473,7 +467,7 @@ margin-top: -90px;
   color: var(--white) !important;
 }
 
-/* Follow us */
+/* =============================== Follow us =========================== */
 
 .follow-section {
   height: auto;
