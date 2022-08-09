@@ -22,10 +22,8 @@ const Contact = () => {
             xs={12}
             className="d-flex justify-content-center align-items-center flex-wrap"
           >
-            <Col xs={12} md={6}>
-              <GoogleMap />
-            </Col>
-            <Col xs={12} md={6}>
+            <GoogleMap />
+            <Col xs={12} md={6} className="mt-5 mt-md-0">
               <h6>Hours</h6>
               <p>9 am to 5 pm Monday - Friday</p>
               <h6>Locations</h6>

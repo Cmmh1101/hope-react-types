@@ -584,6 +584,7 @@ margin-top: -90px;
 @media only screen and (max-width: 964px) {
   .jumbo-header {
     height: auto;
+    min-height: 45vh;
   }
   .jumbo-header h1 {
     font-size: 4rem !important;
@@ -624,68 +625,6 @@ margin-top: -90px;
 
 
 @media only screen and (max-width: 600px) {
-nav {
-    z-index: 150;
-    background-color: var(--white);
-  }
-
-  .logo-brand {
-    color: var(--dark-blue) !important;
-  }
-
-  .logo-img {
-    width: 100px;
-    transition: var(--transition);
-  }
-
-  .logo-img:hover {
-    transform: scale(1.1);
-  }
-
-  .nav-active {
-    color: var(--lighter-blue);
-  }
-
-  .nav-inactive {
-    color: var(--dark-blue);
-  }
-
-  nav ul li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 10px 0;
-    text-decoration: none;
-  }
-
-  nav ul li a {
-    color: var(--dark-blue);
-    transition: var(--transition);
-  }
-
-  nav ul li a:hover {
-    text-decoration: none;
-    color: var(--lighter-blue);
-  }
-
-  a.drop-item {
-    color: var(--dark-blue) !important;
-  }
-
-  a.drop-item:hover {
-    color: var(--lighter-blue) !important;
-  }
-
-  .menu-btn-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-
-  .menu-btn {
-    justify-content: end !important;
-    margin-right: -60%;
-  }
 
 .jumbo-header h1 {
     font-size: 4rem !important;

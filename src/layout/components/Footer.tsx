@@ -1,6 +1,6 @@
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { Col, Container, Row } from "reactstrap";
 
@@ -27,7 +27,7 @@ const Footer = () => {
             <Link to="/">About Us</Link>
             <Link to="/">Contact Us</Link>
           </Col>
-          <Col sm={6} md={3} className="footer-col">
+          <Col sm={6} md={3} className="footer-col mt-3 mt-md-0">
             <h4>CONTACT US</h4>
             <p>Tlf: +123456789</p>
             <p>Email</p>
