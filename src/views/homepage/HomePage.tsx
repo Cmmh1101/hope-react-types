@@ -30,7 +30,7 @@ const HomePage = () => {
           overlay={true}
         />
       </div>
-      <Container className="home-programs">
+      <Container className="home-programs mx-auto">
         <MainHeader headerText="Our programs" />
         <ProgramsList />
       </Container>
@@ -43,7 +43,7 @@ const HomePage = () => {
           overlay={true}
         />
       </div>
-      <Container className="home-stories">
+      <Container className="home-stories mx-auto">
         <MainHeader headerText="Stories of Hope" />
         <StoriesList />
       </Container>
