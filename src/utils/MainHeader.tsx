@@ -1,5 +1,5 @@
 import React from "react";
-import { Col } from "reactstrap";
+import { Col, Row } from "reactstrap";
 
 interface Props {
   headerText: string;
@@ -17,12 +17,14 @@ const MainHeader = ({
   sectionHighlight,
 }: Props) => {
   return (
-    <Col xs={12} className={`main-header mx-auto pt-5 ${customClass}`}>
-      <span>{sectionHighlight}</span>
-      <h2 className={customClass}>{headerText}</h2>
-      <span className="subtitle-deco">{subTitleDeco}</span>
-      <p>{subText}</p>
-    </Col>
+    <Row className="mx-auto my-5 py-5">
+      <Col xs={12} className={`main-header ${customClass}`}>
+        <span>{sectionHighlight}</span>
+        <h2 className={customClass}>{headerText}</h2>
+        <span className="subtitle-deco">{subTitleDeco}</span>
+        <p>{subText}</p>
+      </Col>
+    </Row>
   );
 };
 

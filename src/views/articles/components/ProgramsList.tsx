@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 
 const ProgramsList = () => {
   return (
-    <Row className="mb-5">
+    <Row className="programs-section">
       <Col xs={12} className="d-flex flex-wrap">
         {articlesData.map((article, key) => {
           return (
-            <Col xs={12} md={4} key={key} className="programs-list  px-3">
+            <Col xs={12} md={4} key={key} className="programs-list pt-3">
               <img
                 src={article.icon}
                 alt={article.title}
@@ -23,7 +23,7 @@ const ProgramsList = () => {
               <Link
                 to={`/program/${article.name}`}
                 color="primary"
-                className="my-3 mb-5 btn btn-cta"
+                className="mt-3 btn btn-cta"
               >
                 Learn More
               </Link>

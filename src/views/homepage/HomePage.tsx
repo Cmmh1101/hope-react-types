@@ -30,7 +30,7 @@ const HomePage = () => {
           overlay={true}
         />
       </div>
-      <Container className="pt-5">
+      <Container className="home-programs">
         <MainHeader headerText="Our programs" />
         <ProgramsList />
       </Container>
@@ -43,7 +43,7 @@ const HomePage = () => {
           overlay={true}
         />
       </div>
-      <Container className="pt-5">
+      <Container className="home-stories">
         <MainHeader headerText="Stories of Hope" />
         <StoriesList />
       </Container>

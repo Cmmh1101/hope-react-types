@@ -9,7 +9,7 @@ interface Props {}
 
 const FollowUs = (props: Props) => {
   return (
-    <Container fluid className="p-5 follow-section">
+    <Container fluid className="pb-5 follow-section">
       <Row>
         <Col xs={12} className="d-flex justify-content-center flex-wrap">
           <Col

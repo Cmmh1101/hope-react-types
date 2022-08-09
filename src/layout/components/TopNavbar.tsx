@@ -25,14 +25,14 @@ const TopNavbar = ({ props }: any) => {
       <Navbar fixed="top" className="shadow" light expand="md">
         <NavbarBrand
           href="/"
-          className="logo-brand d-flex flex-column flex-sm-row justify-content-center align-items-center"
+          className="logo-brand d-flex flex-row justify-content-center align-items-center"
         >
           <img
             className="logo-img"
             src="../../../images/logo.png"
             alt="logo brand"
           />{" "}
-          <div className="d-md-none d-lg-flex">Hope For The Nations</div>
+          <div className="d-none d-lg-flex">Hope For The Nations</div>
         </NavbarBrand>
         <div className="d-flex">
           <NavLink

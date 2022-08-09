@@ -5,6 +5,8 @@ import { Link, NavLink } from "react-router-dom";
 import { Col, Container, Row } from "reactstrap";
 
 const Footer = () => {
+  const year = new Date();
+
   return (
     <footer>
       <Container fluid>
@@ -60,7 +62,7 @@ const Footer = () => {
         </Row>
       </Container>
       <section className="text-center rights">
-        <small>COPYRIGHT © 2022 HOPE FOR THE NATIONS | CREDITS</small>
+        <small>COPYRIGHT © {year.getFullYear()} HOPE FOR THE NATIONS</small>
       </section>
     </footer>
   );

@@ -17,7 +17,7 @@ const ProgramsListPage = () => {
       />
       <Container>
         <Row className="mt-5">
-          <Col xs={12} md={10} className="mt-5 mx-auto">
+          <Col xs={12} md={10} className="mb-5 mx-auto">
             <MainHeader headerText="Our Programs" />
             <ProgramsList />
           </Col>
