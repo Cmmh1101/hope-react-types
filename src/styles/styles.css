@@ -570,6 +570,33 @@ margin-top: -90px;
   text-align: center;
 }
 
+/* =================================== Not FOund Page ======================== */ 
+
+.not-found-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-img {
+  width: 100%;
+  height: auto;
+}
+.not-found-img img{
+  width: 100%;
+}
+
+.not-found-text  {
+  width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 5rem;
+}
+
 /* =================================== RESPONSIVE STYLES =============================== */
 
 @media only screen and (max-width: 964px) {
