@@ -28,9 +28,9 @@ const articles = [
   },
   {
     name: "sustainable-community-garden",
-    title: "Community Gardens",
+    title: "Community Garden",
     date: "05/03/2021",
-    image: "../images/programs/comunity-garden.jpg",
+    image: "../images/programs/community-garden-fruit.jpg",
     icon: "../../../images/carrot-light.png",
     description: "Sustainable Community Gardens and Raising chicken for Hope",
     alt: "",
@@ -99,7 +99,7 @@ The project integrates solutions to socio-economic and environmental challenges 
     },
     programImage3: {
         image: "../images/programs/lights-of-hope.jpg",
-        alt: "Hair salon suplies beneficiary"
+        alt: "Hair salon supplies beneficiary"
     },
     programImage4: {
         image: "../images/programs/lights-of-hope-1.jpg",

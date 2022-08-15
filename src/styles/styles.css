@@ -365,7 +365,7 @@ margin-top: -90px;
 /* =========================== stories =========================== */
 
 
-.stories-list-img-containter {
+.stories-list-img-container {
   padding: 0;
   display: flex;
   align-items: center;
@@ -376,14 +376,14 @@ margin-top: -90px;
   box-shadow: 0px 0px 28px -1px rgba(0, 0, 0, 0.33);
 }
 
-.stories-list-containter-link {
+.stories-list-container-link {
   display: flex;
   transition: var(--transition);
   align-items: center;
   justify-content: center;
 }
 
-.stories-list-containter-link:hover {
+.stories-list-container-link:hover {
   text-decoration: none;
   transform: scale(1.03);
 }
@@ -499,7 +499,7 @@ margin-top: -90px;
   font-size: 3rem;
 }
 
-/* Team member */
+/* ====================== Team member ======================= */
 
 .about-img-container {
   display: flex;
@@ -570,7 +570,7 @@ margin-top: -90px;
   text-align: center;
 }
 
-/* =================================== Not FOund Page ======================== */ 
+/* =================================== Not Found Page ======================== */ 
 
 .not-found-page {
   width: 100vw;

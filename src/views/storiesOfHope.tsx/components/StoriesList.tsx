@@ -14,13 +14,13 @@ const ProgramsList = () => {
       >
         {storiesData.map((article: any, key: any) => {
           return (
-            <Col xs={12} key={key} className="stories-list-containter">
+            <Col xs={12} key={key} className="stories-list-container">
               <Link
                 to={`/storyOfHope/${article.name}`}
                 color="primary"
-                className="my-3 mb-5 flex-wrap stories-list-containter-link"
+                className="my-3 mb-5 flex-wrap stories-list-container-link"
               >
-                <Col xs={12} md={6} className="p-0 stories-list-img-containter">
+                <Col xs={12} md={6} className="p-0 stories-list-img-container">
                   <div
                     className="w-100"
                     style={{
