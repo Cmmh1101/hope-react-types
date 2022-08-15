@@ -52,7 +52,7 @@ const TopNavbar = ({ props }: any) => {
           <NavItem tag="li" className="navigation-link my-2 my-md-0">
             <NavLink
               to="/"
-              // onClick={toggle}
+              onClick={toggle}
               // className={(isActive) =>
               //   "nav-active" + (!isActive ? "nav-inactive" : "")
               // }
@@ -67,29 +67,49 @@ const TopNavbar = ({ props }: any) => {
             </DropdownToggle>
             <DropdownMenu>
               <DropdownItem>
-                <NavLink to="/purpose" activeClassName="nav-active">
+                <NavLink
+                  to="/purpose"
+                  activeClassName="nav-active"
+                  onClick={toggle}
+                >
                   Our Purpose
                 </NavLink>
               </DropdownItem>
               <DropdownItem>
-                <NavLink to="/leadership" activeClassName="nav-active">
+                <NavLink
+                  to="/leadership"
+                  activeClassName="nav-active"
+                  onClick={toggle}
+                >
                   Leadership
                 </NavLink>
               </DropdownItem>
             </DropdownMenu>
           </UncontrolledDropdown>
           <NavItem tag="li" className="navigation-link my-2 my-md-0">
-            <NavLink to="/programs" activeClassName="nav-active">
+            <NavLink
+              to="/programs"
+              activeClassName="nav-active"
+              onClick={toggle}
+            >
               Programs
             </NavLink>
           </NavItem>
-          <NavItem tag="li" className="navigation-link my-2 my-md-0">
+          <NavItem
+            tag="li"
+            className="navigation-link my-2 my-md-0"
+            onClick={toggle}
+          >
             <NavLink to="/storiesOfHope" activeClassName="nav-active">
               Blog
             </NavLink>
           </NavItem>
           <NavItem tag="li" className="navigation-link my-2 my-md-0">
-            <NavLink to="/contactUs" activeClassName="nav-active">
+            <NavLink
+              to="/contactUs"
+              activeClassName="nav-active"
+              onClick={toggle}
+            >
               Contact
             </NavLink>
           </NavItem>
@@ -101,6 +121,7 @@ const TopNavbar = ({ props }: any) => {
               }}
               target="_blank"
               className="btn btn-cta d-none d-md-flex"
+              onClick={toggle}
             >
               Donate
             </NavLink>

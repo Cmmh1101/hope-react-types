@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 const ProgramsList = () => {
   return (
     <Row className="programs-section">
-      <Col xs={12} className="d-flex flex-wrap">
+      <Col xs={12} className="d-flex flex-wrap justify-content-center">
         {articlesData.map((article, key) => {
           return (
-            <Col xs={12} md={4} key={key} className="programs-list pt-3">
+            <Col xs={12} md={6} key={key} className="programs-list p-4 p-md-5">
               <img
                 src={article.icon}
                 alt={article.title}
