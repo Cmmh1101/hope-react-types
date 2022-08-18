@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Col } from "reactstrap";
 import verses from "../../src/bibleVerses";
-
 interface IVerse {
   verse: string;
   reference: string;
