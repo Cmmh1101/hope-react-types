@@ -47,10 +47,9 @@ const articles = [
         alt: "Community garden banner"
     },
     featured: "true",
-    highligh: `This project will build community-managed organic vegetables and medicinal plant nurseries, giving the community access to a sustainable source of income. After the harvest, food can be shared among gardeners and their families, and the remaining produce will be for sale to the local community and surrounding markets.Each harvest not only provides members of the cooperative with food, but that food is nutritionally diverse.`,
+    highligh: `This project builds community-managed organic vegetables and medicinal plant nurseries, giving the community access to a sustainable source of income. After the harvest, food can be shared among gardeners and their families, and the remaining produce will be for sale to the local community and surrounding markets.Each harvest not only provides members of the cooperative with food, but that food is nutritionally diverse.`,
     content: [
-      `“I give you every seed-bearing plant on the face of the whole earth and every tree that has fruit with seed in it. They will be yours for food.”`,
-      `Genesis 1:29. "Y dijo Dios: He aquí que os he dado toda planta que da semilla, que está sobre toda la tierra, y todo árbol en que hay fruto y que da semilla; os serán para comer." Genesis 1:29.`,
+      `Genesis 1:29 - “And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in the which is the fruit of a tree yielding seed; to you, it shall be for food.”`,
       `Hope for the Nations Urban gardens are intended to support communities to take advantage of the resources found in the same area. These crops allow the communities to supply themselves with fruits, vegetables, at a low cost. These gardens help provide a job and food to families living in underprivileged circumstances.`,
     ],
   },
@@ -137,7 +136,6 @@ The project integrates solutions to socio-economic and environmental challenges 
     featured: "true",
     highligh: `Honor those grandparents who, in one way or another, pass through your life. The Word of God teaches to respect our elders, honor them, listen to them, accompany them, hug them, value their advice, and learn from their stories. “Stand up in the presence of the aged, show respect for the elderly…..Leviticus 19:32.`,
     content: [
-      
       `We enjoyed seeing their smiles, knowing we can show them love and remind them that God cares for them. Disfrutamos viendo sus sonrisas, sabiendo que podemos mostrarle amor y recordarles que Dios se preocupa por ellos.`,
 `Did you know there are simple ways to help Elderly homes like this, like donating household items such as new bedding? Please help us to help them.
 `,
@@ -169,13 +167,11 @@ The project integrates solutions to socio-economic and environmental challenges 
       `Hope for the Nations is a non-profit, Christian organization. We count on a ministry of ambassadors that serves children, older people, and families in Venezuela’s most impoverished area. As we help them, we bring the gospel nurturing not only with physical needs but we spiritual needs as well.`,
 
       `Our purpose is to transform lives and communities through the Word of God. We created a different sustainable program to allow them to participate and grow as they become independent. Our mission is to serve disadvantaged communities while we show the love of God. We began our work formerly in 2018. In 2020 we started with a series of sustainable programs to bring solutions while bringing God’s Hope.`,
-      `Our organization started catering to the elderly; we provided meals for the homeless and families with a lack of food; we also provided clothes and shoes. In Venezuela’s rural zones, we are developing and expanding sustainable programs such as community gardens, chicken coops, and fish farming to teach, train, and help the community be sustainable.`,
-      `With an integrated approach, we will provide training where these families can acquire practical life skills rooted in sustainability principles, environmental stewardship, and biblical teachings while engaging in the self-awareness and personal transformation that will support their well-being. It will help them empower themselves and take leadership roles within their local communities.`,
     ],
   },
   {
-    name: "hope-school-program",
-    title: "Hope School",
+    name: "school-of-hope-program",
+    title: "School of Hope",
     date: "04/16/2021",
     image: "../../../../images/programs/sports3.png",
     icon: "../../../images/sports.png",
@@ -196,10 +192,8 @@ The project integrates solutions to socio-economic and environmental challenges 
     featured: "true",
     highligh: `We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.`,
     content: [
-      `Hope for the Nations is a non-profit, Christian organization. We count on a ministry of ambassadors that serves children, older people, and families in Venezuela’s most impoverished area. As we help them, we bring the gospel nurturing not only with physical needs but we spiritual needs as well.`,
+      `School of Hope supports schools in low-income communities with the tools they need to provide an excellent education focused on God’s Word. School of Hope equip schools with the resources they need to operate and provides children with a strong foundation in the Word of God.`,
       `Our purpose is to transform lives and communities through the Word of God. We created a different sustainable program to allow them to participate and grow as they become independent. Our mission is to serve disadvantaged communities while we show the love of God. We began our work formerly in 2018. In 2020 we started with a series of sustainable programs to bring solutions while bringing God’s Hope.`,
-      `Our organization started catering to the elderly; we provided meals for the homeless and families with a lack of food; we also provided clothes and shoes. In Venezuela’s rural zones, we are developing and expanding sustainable programs such as community gardens, chicken coops, and fish farming to teach, train, and help the community be sustainable.`,
-      `With an integrated approach, we will provide training where these families can acquire practical life skills rooted in sustainability principles, environmental stewardship, and biblical teachings while engaging in the self-awareness and personal transformation that will support their well-being. It will help them empower themselves and take leadership roles within their local communities.`,
     ],
   },
 ];
