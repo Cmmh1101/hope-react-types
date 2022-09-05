@@ -48,13 +48,14 @@ const ProgramsList = () => {
           );
         })}
       </Col>
-      <Col
+      <FacebookFeed className="float-right" />
+      {/* <Col
         xs={12}
         lg={4}
         className="d-flex justify-content-center align-items-center"
       >
         <FacebookFeed />
-      </Col>
+      </Col> */}
     </Row>
   );
 };
