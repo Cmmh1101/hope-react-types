@@ -17,6 +17,7 @@ const HomePage = () => {
         background="../../../images/hero-image.jpg"
         className="jumbo-header"
         overlay={true}
+        buttonText="See Our Programs"
       />
       <Container>
         <Introduction />

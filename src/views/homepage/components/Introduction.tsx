@@ -17,7 +17,7 @@ const Introduction = (props: Props) => {
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/E1xkXZs0cAQ"
+              src="https://www.youtube.com/embed/Pch09DVpw10"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -26,7 +26,7 @@ const Introduction = (props: Props) => {
           </Col>
           <Col xs={12} lg={6} className="p-5 list-sec">
             <div>
-              <h3 className="text-start">WE BELEIVE</h3>
+              <h3 className="text-start">WE BELIEVE</h3>
               <ul>
                 <li>The circle of poverty...</li>
                 <li>All can share their gifts and talents...</li>

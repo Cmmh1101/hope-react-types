@@ -81,7 +81,10 @@ const Leadership = () => {
         overlay={true}
       />
       <Container>
-        <Row className="d-flex justify-content-center align-items-center">
+        <Row
+          tag="article"
+          className="d-flex justify-content-center align-items-center"
+        >
           <Col xs={12}>
             <MainHeader headerText="Leadership" />
           </Col>
