@@ -11,12 +11,12 @@ const Leadership = () => {
     {
       fullName: "Luzbell Wood",
       ocupation: "Founder & Director",
-      photo: "../../../images/face-placeholder.png",
+      photo: "../../../images/leadership/profile-luz.png",
     },
     {
       fullName: "Aimee Wood",
       ocupation: "Director & Digital Designer",
-      photo: "../../../images/face-placeholder.png",
+      photo: "../../../images/leadership/profile-gaby.png",
     },
     {
       fullName: "Nancy Valera",
@@ -25,9 +25,24 @@ const Leadership = () => {
     },
     {
       fullName: "Carla Montano",
-      ocupation: "Web Developer",
+      ocupation: "Tech Director",
+      photo: "../../../images/leadership/profile-carla.png",
+    },
+    {
+      fullName: "Maria Brady",
+      ocupation: "Project Manager",
       photo: "../../../images/face-placeholder.png",
     },
+    {
+      fullName: "Ana Salcedo",
+      ocupation: "Leader - Caracas, Vzla",
+      photo: "../../../images/leadership/profile-ana.png",
+    },
+    // {
+    //   fullName: "Evel Castro",
+    //   ocupation: "Leader - Caracas, Vzla",
+    //   photo: "../../../images/leadership/profile-carla.png",
+    // },
   ];
 
   const volunteers = [
@@ -73,7 +88,7 @@ const Leadership = () => {
           <Col xs={12} md={6} className="about-img-container">
             <img
               className="custom-shadow"
-              src="https://image.shutterstock.com/image-photo/muzaffarpur-india-may-10-2017-260nw-674314204.jpg"
+              src="../../../images/voluntarios.jpg"
               alt="kids eating placeholder text"
             />
           </Col>
