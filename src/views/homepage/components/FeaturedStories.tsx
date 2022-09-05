@@ -1,4 +1,4 @@
-import React, { Props } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { Row, Col } from "reactstrap";
 import storiesData from "../../../storiesData";
@@ -13,10 +13,10 @@ const FeaturedStories = () => {
         className="mb-5 mb-lg-0 d-flex flex-wrap mx-auto justify-content-center align-items-center"
       >
         {storiesData
-          .filter((story) => story.featured === true)
-          .map((article: any, key: any) => {
+          .filter((story) => story.featured)
+          .map((article: any, i) => {
             return (
-              <Col xs={12} key={key} className="stories-list-container">
+              <Col xs={12} key={i} className="stories-list-container">
                 <Link
                   to={`/storyOfHope/${article.name}`}
                   color="primary"

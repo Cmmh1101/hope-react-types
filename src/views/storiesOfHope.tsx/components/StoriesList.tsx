@@ -12,9 +12,9 @@ const ProgramsList = () => {
         lg={8}
         className="mb-5 mb-lg-0 d-flex flex-wrap mx-auto justify-content-center align-items-center"
       >
-        {storiesData.map((article: any, key: any) => {
+        {storiesData.map((article: any, i) => {
           return (
-            <Col xs={12} key={key} className="stories-list-container">
+            <Col xs={12} key={i} className="stories-list-container">
               <Link
                 to={`/storyOfHope/${article.name}`}
                 color="primary"
