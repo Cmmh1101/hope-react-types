@@ -23,7 +23,7 @@ const articles = [
         alt: "Dylan with a baseball trophy"
     },
     alt: "",
-    featured: "true",
+    featured: true,
     highligh:
       "Your gift will help us to continue providing basics needs like water, nutritious food, and shelter. Esperanza para las Naciones  ensures that children get their necessities, access to education, books, shoes, and clothing.",
     content: [
@@ -56,7 +56,7 @@ const articles = [
         alt: "Dylan with a baseball trophy"
     },
     alt: "Ana after receiving her Glasses Donation",
-    featured: "true",
+    featured: true,
     highligh:
       "Your gift will help us to continue providing basics needs like water, nutritious food, and shelter. Esperanza para las Naciones  ensures that children get their necessities, access to education, books, shoes, and clothing.",
     content: [
@@ -89,7 +89,7 @@ const articles = [
         alt: "Hector Romero"
     },
     alt: "Hector receiving work tools to start his business",
-    featured: "true",
+    featured: true,
     highligh:
       "Your gift will help us to continue providing basics needs like water, nutritious food, and shelter. Esperanza para las Naciones  ensures that children get their necessities, access to education, books, shoes, and clothing.",
     content: [
@@ -121,7 +121,7 @@ const articles = [
         alt: "Karla Reyes"
     },
     alt: "Hector receiving work tools to start his business",
-    featured: "false",
+    featured: false,
     highligh:
       "Your gift will help us to continue providing basics needs like water, nutritious food, and shelter. Esperanza para las Naciones  ensures that children get their necessities, access to education, books, shoes, and clothing.",
     content: [
@@ -153,7 +153,7 @@ const articles = [
         alt: "Daniela Castillo"
     },
     alt: "Daniela Castillo receiving work tools to start his business",
-    featured: "false",
+    featured: false,
     highligh:
       "Your gift will help us to continue providing basics needs like water, nutritious food, and shelter. Esperanza para las Naciones  ensures that children get their necessities, access to education, books, shoes, and clothing.",
     content: [
@@ -185,7 +185,7 @@ const articles = [
         alt: "Alsimyr Vargas"
     },
     alt: "Daniela Castillo receiving work tools to start his business",
-    featured: "false",
+    featured: false,
     highligh:
       "Your gift will help us to continue providing basics needs like water, nutritious food, and shelter. Esperanza para las Naciones  ensures that children get their necessities, access to education, books, shoes, and clothing.",
     content: [

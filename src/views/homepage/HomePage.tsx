@@ -7,6 +7,7 @@ import StoriesList from "../storiesOfHope.tsx/components/StoriesList";
 import DonateBanner from "../../utils/DonateBanner";
 import Introduction from "./components/Introduction";
 import Header from "../../utils/Header";
+import FeaturedStories from "./components/FeaturedStories";
 
 const HomePage = () => {
   return (
@@ -45,8 +46,8 @@ const HomePage = () => {
         />
       </div>
       <Container className="home-stories mx-auto">
-        <MainHeader headerText="Stories of Hope" />
-        <StoriesList />
+        <MainHeader headerText="Meet Some Of Our Stories of Hope" />
+        <FeaturedStories />
       </Container>
       <DonateBanner />
     </>

@@ -293,6 +293,21 @@ margin-top: -90px;
   transform: scale(1.03);
 }
 
+.btn-cta {
+  transition: var(--transition)!important;
+  outline: none;
+  color: var(--white) !important;
+}
+
+.btn-cta:hover {
+  transform: scale(1.1);
+
+}
+
+.btn-cta:focus{
+  outline: none;
+}
+
 /* =========================== story page =========================== */
 
 .custom-shadow {
@@ -350,10 +365,24 @@ margin-top: -90px;
 .donate-banner .btn-cta:hover {
   background-color: #1f8838 !important;
   transform: scale(1.1);
-
 }
 
 .donate-banner .btn-cta:focus, .jumbo-header .btn-cta:focus {
+  outline: none;
+}
+
+.btn-cta {
+  transition: all 10s ease-in-out;
+  outline: none;
+  color: var(--white) !important;
+}
+
+.btn-cta:hover {
+  transform: scale(1.1);
+
+}
+
+.btn-cta:focus {
   outline: none;
 }
 
