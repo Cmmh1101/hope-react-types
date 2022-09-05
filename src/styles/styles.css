@@ -327,6 +327,7 @@ margin-top: -90px;
 
 .float-right {
   float: right;
+  margin-top: 15px;
 }
 
 /* =========================== donate =========================== */
@@ -581,16 +582,10 @@ margin-top: 5rem;
     .home-programs, .home-stories {
       margin: 200px 0;
     }
-
-        /* .team-member-card {
-          max-width: 200px;
-          min-height: 350px;
-        }
-    
-        .team-member-image {
-          width: 100%;
-          height: 300px;
-        } */
+    .float-right {
+      margin: 0 auto;
+      margin-top: 15px;
+    }
 }
 
 
