@@ -92,21 +92,18 @@ const Leadership = () => {
               alt="kids eating placeholder text"
             />
           </Col>
-          <Col xs={12} md={6} className="px-5">
+          <Col xs={12} md={6} className="mt-4 px-5">
             <p>
-              Aqui va a ir una descripcion de la fundadora, familia, historia y
-              que incentivo a formar la orgnizacion Aqui va a ir una descripcion
-              de la fundadora, familia.
+              Luzbell Woods Founder of Hope for The Nations, is from Venezuela
+              and currently resides in Tennessee, US. Where she serves youth
+              students teaching and sharing God's word.
             </p>
             <p>
-              Una foto familiar puede verse bien aqui...Aqui va a ir una
-              descripcion de la fundadora, familia, historia y que incentivo a
-              formar la orgnizacion Aqui va a ir una.
-            </p>
-            <p>
-              Hay que buscar una foto que se vea bien aqui en el banner de abajo
-              y que incentivo a formar la orgnizacion Aqui va a ir una
-              descripcion de la fundadora, familia.
+              Her passion has always been to help and serve others, which lead
+              her to found Hope For The Nations, where her and her family have
+              been dedicating to help unfortunate communities in her home
+              country Venezuela through God's word and donations received she
+              shares Hope and opportunities to the needed.
             </p>
           </Col>
         </Row>

@@ -119,7 +119,7 @@ The project integrates solutions to socio-economic and environmental challenges 
     date: "04/20/2021",
     image: "../../../../images/programs/casa-Hogar-el-conde1.jpg",
     icon: "../../../images/couple.png",
-    description: "Elderly Care Propgram",
+    description: "Elderly Care Program",
     alt: "Elderly Members of Casa Hogar El Conde with Hope for the nations Volunteers.",
     programImage2: {
         image: "../images/programs/elderly-program.jpg",
