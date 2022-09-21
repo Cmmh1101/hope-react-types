@@ -8,18 +8,18 @@ const articles = [
     description: "Hunger Relief",
     alt: "",
     programImage2: {
-        image: "../../../images/dylanStory/Dylan-escuela.jpeg",
-        alt: "Dylan at School"
+        image: "../../../images/programs/hunger2.jpg",
+        alt: "Kids seated eating during Hunger relieve program session"
     },
     programImage3: {
-        image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
-        alt: "Dylan"
+        image: "../../../images/programs/hunger.jpg",
+        alt: "Kids seated eating during Hunger relieve program session"
     },
     programImage4: {
-        image: "../../../images/dylanStory/Dylan-Baseball.png",
-        alt: "Dylan with a baseball trophy"
+        image: "../../../images/programs/hunger1.jpg",
+        alt: "Kids seated eating during Hunger relieve program session"
     },
-    featured: "true",
+    featured: true,
     highligh:
       "We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.",
     content: [
@@ -73,7 +73,7 @@ const articles = [
         image: "../../../images/dylanStory/Dylan-Baseball.png",
         alt: "Dylan with a baseball trophy"
     },
-    featured: "true",
+    featured: true,
     highligh: `The fish harvest will provide a great resource of protein food sources. Also, farmers can sell part of the fish to the community in order to generate income. Fish will be selling for half price in order to benefit the community giving farmers a sustainable source of income.
 
 The project integrates solutions to socio-economic and environmental challenges and will empower Christians women and men from the city of Maracay, Aragua in Venezuela.`,
@@ -103,7 +103,7 @@ The project integrates solutions to socio-economic and environmental challenges 
         image: "../images/programs/lights-of-hope-1.jpg",
         alt: "Dylan with a baseball trophy"
     },
-    featured: "false",
+    featured: false,
     highligh: `Participants will gain the necessary skills to confidently engage in society and help change not only their own lives but countless others through their local communities, with the essential knowledge and skills for the creation of new employment opportunities, a deeper understanding of sustainable development. Here some of the participants of the work program "Light of Hope."`,
     content: [
       `This project enables families to become economically independent. We provide the tools and resources families needed to begin a micro-business and become independently self-sufficient.`,
@@ -133,7 +133,7 @@ The project integrates solutions to socio-economic and environmental challenges 
         image: "../../../../images/programs/casa-hogar-en-caracas.jpg",
         alt: "Elderly members of Hasa Hogar in Caracas Vzla with Hope for the nations Volunteers"
     },
-    featured: "true",
+    featured: true,
     highligh: `Honor those grandparents who, in one way or another, pass through your life. The Word of God teaches to respect our elders, honor them, listen to them, accompany them, hug them, value their advice, and learn from their stories. “Stand up in the presence of the aged, show respect for the elderly…..Leviticus 19:32.`,
     content: [
       `We enjoyed seeing their smiles, knowing we can show them love and remind them that God cares for them. Disfrutamos viendo sus sonrisas, sabiendo que podemos mostrarle amor y recordarles que Dios se preocupa por ellos.`,
@@ -161,7 +161,7 @@ The project integrates solutions to socio-economic and environmental challenges 
         image: "../images/programs/sports3.png",
         alt: "Dylan with a baseball trophy"
     },
-    featured: "true",
+    featured: true,
     highligh: `We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.`,
     content: [
       `Hope for the Nations is a non-profit, Christian organization. We count on a ministry of ambassadors that serves children, older people, and families in Venezuela’s most impoverished area. As we help them, we bring the gospel nurturing not only with physical needs but we spiritual needs as well.`,
@@ -189,7 +189,7 @@ The project integrates solutions to socio-economic and environmental challenges 
         image: "../../../images/dylanStory/Dylan-Baseball.png",
         alt: "Dylan with a baseball trophy"
     },
-    featured: "true",
+    featured: true,
     highligh: `We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.`,
     content: [
       `School of Hope supports schools in low-income communities with the tools they need to provide an excellent education focused on God’s Word. School of Hope equip schools with the resources they need to operate and provides children with a strong foundation in the Word of God.`,
