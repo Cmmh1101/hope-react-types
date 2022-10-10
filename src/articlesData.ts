@@ -23,6 +23,7 @@ const articles = [
     highligh:
       "We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.",
     content: [
+      `Our food program includes the provision of food in vulnerable areas. There are team of ambassadors and volunteers that partner with Christian churches locally and in Venezuela that helps show the love of God by bringing both physical and spiritual food.`,
       `A hand full of Hope are two food programs. The spoon of love’s program: provide weekly food to people in the street and impoverished communities around Venezuela while we evangelize, giving them spiritual bread. A hand of Hope: provide grocery bags to the most vulnerable families in Venezuela. Our goal is to continue spreading the gospel of Jesus Christ while we help them.`,
     ],
   },
@@ -173,26 +174,26 @@ The project integrates solutions to socio-economic and environmental challenges 
     name: "school-of-hope-program",
     title: "School of Hope",
     date: "04/16/2021",
-    image: "../../../../images/programs/sports3.png",
-    icon: "../../../images/sports.png",
+    image: "../../../../images/programs/school-1.jpg",
+    icon: "../../../images/open-book.png",
     description: "Hope Sports Program",
     alt: "",
     programImage2: {
-        image: "../../../images/dylanStory/Dylan-escuela.jpeg",
+        image: "../../../images/programs/school-2.jpg",
         alt: "Dylan at School"
     },
     programImage3: {
-        image: "../../../images/dylanStory/Dylan-bandera-Venezuela.jpeg",
+        image: "../../../images/programs/school-3.jpg",
         alt: "Dylan"
     },
     programImage4: {
-        image: "../../../images/dylanStory/Dylan-Baseball.png",
+        image: "../../../images/programs/school-3.jpg",
         alt: "Dylan with a baseball trophy"
     },
     featured: true,
     highligh: `We plant the seed in them, and we hope this seed flourish and give back their fruits. All these projects aim to help people be sustainable because we do not want to treat the problem; we are looking for long-term solutions.`,
     content: [
-      `School of Hope supports schools in low-income communities with the tools they need to provide an excellent education focused on God’s Word. School of Hope equip schools with the resources they need to operate and provides children with a strong foundation in the Word of God.`,
+      `School of Hope supports schools in low-income communities with the tools they need to provide an excellent education focused on God’s Word. School of Hope equips schools with the resources they need to operate and provides children with a strong foundation in the Word of God.`,
       `Our purpose is to transform lives and communities through the Word of God. We created a different sustainable program to allow them to participate and grow as they become independent. Our mission is to serve disadvantaged communities while we show the love of God. We began our work formerly in 2018. In 2020 we started with a series of sustainable programs to bring solutions while bringing God’s Hope.`,
     ],
   },
