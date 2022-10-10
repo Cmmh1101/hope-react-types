@@ -38,6 +38,35 @@ const ProgramPage = ({ match }: any) => {
                 ))}
               </Col>
               <Col xs={12} md={6} className="mt-5">
+                <img
+                  className="custom-shadow"
+                  style={{
+                    width: "98%",
+                    height: "500px",
+                    objectPosition: "center top",
+                    objectFit: "cover",
+                    borderRadius: "5px",
+                  }}
+                  src={article.image}
+                  alt={article.title}
+                />
+              </Col>
+            </Col>
+            <Col
+              xs={12}
+              className="d-flex justify-content-center align-items-center flex-wrap p-0 my-5"
+            >
+              <StoryBannerImageSmall
+                image={article.programImage2?.image}
+                altText={article.programImage2?.alt}
+              />
+              <StoryBannerImageSmall
+                image={article.programImage4?.image}
+                altText={article.programImage4?.alt}
+              />
+            </Col>
+            <HighlightMessage text={article.highligh} customClass="my-5" />
+            {/* <Col xs={12} className="mt-5">
                 <iframe
                   className="custom-shadow"
                   width="100%"
@@ -48,68 +77,7 @@ const ProgramPage = ({ match }: any) => {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
-              </Col>
-            </Col>
-            <Col xs={12} className="d-flex justify-content-center align-items-center flex-wrap p-0 my-5">
-            <Col xs={12} md={6} className="d-flex justify-content-center align-items-center flex-wrap p-0">
-              <StoryBannerImageSmall
-                image={article.programImage2?.image}
-                altText={article.programImage2?.alt}
-              />
-              {/* <StoryBannerImageSmall
-                image={article.programImage4?.image}
-                altText={article.programImage4?.alt}
-              /> */}
-              {/* <StoryBannerImageSmall
-                image={article.programImage3?.image}
-                altText={article.programImage3?.alt}
-              /> */}
-            </Col>
-            <Col xs={12} md={6} className="d-flex justify-content-center align-items-center flex-wrap p-0">
-              {/* <StoryBannerImageSmall
-                image={article.programImage2?.image}
-                altText={article.programImage2?.alt}
-              /> */}
-              <StoryBannerImageSmall
-                image={article.programImage4?.image}
-                altText={article.programImage4?.alt}
-              />
-              {/* <StoryBannerImageSmall
-                image={article.programImage3?.image}
-                altText={article.programImage3?.alt}
-              /> */}
-            </Col>
-            </Col>
-            <Col xs={12} md={6} className="d-flex justify-content-center align-items-center flex-wrap p-0">
-              <StoryBannerImageSmall
-                image={article.programImage2?.image}
-                altText={article.programImage2?.alt}
-              />
-              {/* <StoryBannerImageSmall
-                image={article.programImage4?.image}
-                altText={article.programImage4?.alt}
-              /> */}
-              {/* <StoryBannerImageSmall
-                image={article.programImage3?.image}
-                altText={article.programImage3?.alt}
-              /> */}
-            </Col>
-            <Col xs={12} md={6} className="d-flex justify-content-center align-items-center flex-wrap p-0">
-              {/* <StoryBannerImageSmall
-                image={article.programImage2?.image}
-                altText={article.programImage2?.alt}
-              /> */}
-              <StoryBannerImageSmall
-                image={article.programImage4?.image}
-                altText={article.programImage4?.alt}
-              />
-              {/* <StoryBannerImageSmall
-                image={article.programImage3?.image}
-                altText={article.programImage3?.alt}
-              /> */}
-            </Col>
-            <HighlightMessage text={article.highligh} customClass="my-5" />
-
+              </Col> */}
             <Col xs={12} className="mx-auto px-4">
               <h4 className="my-5 mb-0">Our Programs</h4>
               <ProgramsList />

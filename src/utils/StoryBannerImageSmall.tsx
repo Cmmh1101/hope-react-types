@@ -1,4 +1,5 @@
 import React from "react";
+import { Col } from "reactstrap";
 
 interface Props {
   image: string | undefined;
@@ -7,21 +8,20 @@ interface Props {
 
 const StoryBannerImageSmall = ({ image, altText }: Props) => {
   return (
-    // <div
-    //   className="col-12 col-md-4 px-0 custom-shadow"
-    //   style={{ width: '100%', height: '500px' }}
-    // >
-      <img
-      className="story-banner-small-img"
+    <Col xs={12} md={6} className="d-flex justify-content-center align-items-center flex-wrap p-0 mt-3 mt-md-0">
+<img
+      className="custom-shadow"
         style={{
-          width: "100%",
-          height: "300px",
-          objectPosition: "center bottom",
+          width: "98%",
+          height: "500px",
+          objectPosition: "center top",
+          objectFit: 'cover',
+          borderRadius: '5px'
         }}
         src={image}
         alt={altText}
       />
-    // </div>
+    </Col>
   );
 };
 
